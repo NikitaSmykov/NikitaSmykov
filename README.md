@@ -1,6 +1,4 @@
-<div align="center">
- <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=009688&center=true&vCenter=true&width=800&lines=Hi+there,+I'm+Nikita+Smykov+👋;Applied+AI+Engineer+%7C+RAG+Specialist;Formal+Biology+%26+DeepTech+Architecture" alt="Typing SVG" />
-</div>
+<h1 align="center" style="color: #00B4D8;">Formal Biology & DeepTech Architecture</h1>
 
 <p align="center">
  Results-driven Applied AI Engineer specializing in the rapid integration of Large Language Models (LLMs) into B2B and Enterprise workflows. Expert in designing autonomous, hallucination-free Retrieval-Augmented Generation (RAG) pipelines and deploying scalable backend architectures.
@@ -12,9 +10,9 @@
 
 Currently building the engineering foundation for **DATACURE** — a DeepTech initiative aimed at defeating biological aging through AI and mathematical logic.
 
-*  **Project Insight:** A Potentially Strong Intellectual System designed to transition biology from statistical guessing to formal proofs. 
-*  **Architecture:** Integrating **Lean 4** for formal verification of biological hypotheses (e.g., preventing oncogenesis during epigenetic reprogramming) and **OpenCog Hyperon (Atomspace)** for complex knowledge graph representations of metabolic pathways.
-*  **Goal:** Creating an automated "Lean-Biology" framework to systematically solve cellular clearance and tissue regeneration without the hallucinations inherent in standard LLMs.
+* **Project Insight:** A Potentially Strong Intellectual System designed to transition biology from statistical guessing to formal proofs. 
+* **Architecture:** Integrating **Lean 4** for formal verification of biological hypotheses (e.g., preventing oncogenesis during epigenetic reprogramming) and **OpenCog Hyperon (Atomspace)** for complex knowledge graph representations of metabolic pathways.
+* **Goal:** Creating an automated "Lean-Biology" framework to systematically solve cellular clearance and tissue regeneration without the hallucinations inherent in standard LLMs.
 
 ---
 
@@ -50,13 +48,24 @@ Currently building the engineering foundation for **DATACURE** — a DeepTech in
 
 ---
 
+### 📚 Currently Learning & Exploring
+
+* **Formal Verification & AGI:** Lean 4, OpenCog Hyperon (Atomspace), AI World Models & Cognitive Architectures.
+* **Agentic AI & Orchestration:** Building autonomous Multi-Agent workflows and LLM Orchestrators.
+* **LLM Engineering (Ops & Tuning):** Fine-Tuning (PEFT/LoRA), Model Quantization, Local Inference Optimization.
+* **Graph Networks (Knowledge Graphs):** Neo4j, NetworkX, PyVis.
+* **Advanced NLP & Scraping:** LlamaIndex, spaCy, Playwright, BeautifulSoup.
+* **Bio-Informatics Research:** Parsing PubMed, PMC, bioRxiv, Google Scholar. Exploring OpenAI's GeneBench-Pro evaluation frameworks.
+
+---
+
 ### 📫 Let's Connect
 
 <div align="center">
  <a href="mailto:nickita.smykov@proton.me">
-  <img src="https://img.shields.io/badge/Email-nickita.smykov%40proton.me-004D40?style=for-the-badge&logo=protonmail&logoColor=00B4D8" alt="Email" />
+ <img src="https://img.shields.io/badge/Email-nickita.smykov%40proton.me-004D40?style=for-the-badge&logo=protonmail&logoColor=00B4D8" alt="Email" />
  </a>
- <a href="https://linkedin.com/in/YOUR_LINKEDIN_ID">
-  <img src="https://img.shields.io/badge/LinkedIn-00695C?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN_ID">
+ <img src="https://img.shields.io/badge/LinkedIn-00695C?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
  </a>
 </div>
