@@ -50,15 +50,6 @@ Currently building the engineering foundation for **DATACURE** — a DeepTech in
 
 ---
 
-### 📊 GitHub Stats
-
-<div align="center">
- <img src="https://github-readme-stats.vercel.app/api?username=NikitaSmykov&show_icons=true&title_color=00B4D8&icon_color=00897B&text_color=C9D1D9&bg_color=0D1117&hide_border=true" alt="Nikita's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NikitaSmykov&layout=compact&title_color=00B4D8&text_color=C9D1D9&bg_color=0D1117&hide_border=true" alt="Top Languages" />
-</div>
-
----
-
 ### 📫 Let's Connect
 
 <div align="center">
