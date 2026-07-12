@@ -90,7 +90,7 @@ The architecture consists of three core engineering blocks:
 
 ### 🛠️ Tech Stack & MVP Focus
 **MVP:** Epigenetic rejuvenation via Yamanaka factors.
-* **Data Extraction:** Python (BeautifulSoup, Playwright) + LLMs (LangChain, Claude 3) to crawl and extract structured triplets from *Aging Cell* and *Nature Aging*.
+* **Data Extraction:** Python (BeautifulSoup, Playwright) + LLMs (LangChain, Claude) to crawl and extract structured triplets from *Aging Cell* and *Nature Aging*.
 * **Bio-Databases (API-First):** Reactome/KEGG, DrugBank, GenAge.
 * **Storage Layer:** Milvus/Qdrant (Vector embeddings) + Neo4j (Graph logic).
 * **Data Provenance:** Every relationship in the database is tagged with its source DOI and Lean verification code.
