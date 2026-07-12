@@ -39,6 +39,7 @@
 ---
 
 ### 📚 Currently Learning & Exploring
+* **Medical Computer Vision (Radiology & Pathology):** Exploring diagnostic AI for imaging (X-ray, CT, MRI) to detect anomalies, automate critical triage (strokes/tumors), and digital pathology algorithms for precise biopsy classification and cancer staging.
 
 * **Formal Verification & AGI:** Lean 4, OpenCog Hyperon (Atomspace), AI World Models & Cognitive Architectures.
 * **Agentic AI & Orchestration:** Building autonomous Multi-Agent workflows and LLM Orchestrators.
