@@ -64,7 +64,7 @@
  </a>
 </div>
 
-## 🚀 Featured Enterprise Projects
+##  Featured Enterprise Projects
 
 ### 1. [Enterprise Clinical Orchestrator | FHIR-Native GraphRAG Middleware](ссылка_на_репо)
 **Tech Stack:** FastAPI, LangGraph, Neo4j, Docker, HL7 FHIR
