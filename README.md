@@ -65,22 +65,30 @@
  </a>
 </div>
 
-##  Featured Enterprise Projects
+## 🧬 Featured Enterprise Projects
 
-### 1. [Enterprise Clinical Orchestrator | FHIR-Native GraphRAG Middleware](ссылка_на_репо)
+### 1. [Enterprise Clinical Orchestrator | FHIR-Native GraphRAG Middleware](ссылка)
+
 **Tech Stack:** FastAPI, LangGraph, Neo4j, Docker, HL7 FHIR
+
 Architected an on-premise, multi-agent integration middleware designed to eliminate medical data silos. Unifies disjointed diagnostic outputs (IBM Watson, Radiology AI) into a secure Patient Knowledge Graph. Fully PDPA/HIPAA compliant.
 
-### 2. [Thai FDA Compliance AI | B2B SaaS](ссылка_на_репо)
+### 2. [Thai FDA Compliance AI | B2B SaaS](ссылка)
+
 **Tech Stack:** Python (Asyncio), FastAPI, ChromaDB, Claude 3 API, SQLite
+
 Designed and deployed an asynchronous AI platform for automated compliance scoring of pharmacological formulations against ASEAN/Thai FDA regulations. Implemented a quota-based billing architecture.
 
-### 3. [JCI Regulatory & Protocol AI Assistant](ссылка_на_репо)
+### 3. [JCI Regulatory & Protocol AI Assistant](ссылка)
+
 **Tech Stack:** Ollama, Llama-3 (8-bit), FAISS, FastAPI, Docker
+
 Developed a secure, on-premise LLM inference system to retrieve internal hospital protocols (JCI) and insurance policies, guaranteeing 100% patient data privacy without external cloud APIs.
 
-### 4. [Clinical Data ETL Pipeline & HIS Integrator](ссылка_на_репо)
+### 4. [Clinical Data ETL Pipeline & HIS Integrator](ссылка)
+
 **Tech Stack:** PostgreSQL, Pandas, Python (OOP, Asyncio), Regex
+
 Architected a high-throughput data engineering pipeline to clean, validate, and standardize diverse patient records from multiple Health Information Systems (HIS) for downstream AI processing.
 
 ---
