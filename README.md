@@ -6,16 +6,6 @@
 
 ---
 
-### 🔭 Current Focus: DATACURE & Project Insight
-
-Currently building the engineering foundation for **DATACURE** — a DeepTech initiative aimed at defeating biological aging through AI and mathematical logic.
-
-* **Project Insight:** A Potentially Strong Intellectual System designed to transition biology from statistical guessing to formal proofs. 
-* **Architecture:** Integrating **Lean 4** for formal verification of biological hypotheses (e.g., preventing oncogenesis during epigenetic reprogramming) and **OpenCog Hyperon (Atomspace)** for complex knowledge graph representations of metabolic pathways.
-* **Goal:** Creating an automated "Lean-Biology" framework to systematically solve cellular clearance and tissue regeneration without the hallucinations inherent in standard LLMs.
-
----
-
 ### 🧬 What I Do
 
 - 🔬 **AI & NLP:** Building Multi-Agent systems, hybrid RAG pipelines, and precise data extraction engines.
@@ -73,3 +63,34 @@ Currently building the engineering foundation for **DATACURE** — a DeepTech in
  <img src="https://img.shields.io/badge/Pinterest-004D40?style=for-the-badge&logo=pinterest&logoColor=00B4D8" alt="Pinterest" />
  </a>
 </div>
+
+## 🧬 Project Insight: Formal Bio-Engineering & AGI for Longevity
+
+**Insight** is a DeepTech initiative and a Potentially Strong Intellectual System (PSIS) designed to solve biological aging. The core mission is to transition biology from statistical guessing (AI-driven pattern matching) to **Formal Bio-Engineering**, utilizing mathematical logic and automated theorem proving.
+
+### 🛑 The Problem: Noise and Hallucinations in Biology
+Modern biomedical literature is saturated with logical inconsistencies. Standard LLMs hallucinate and lack strict logical coherence. Feeding raw PubMed articles to an AI is insufficient. **Insight** solves this by translating biological hypotheses into the **Lean 4** formal language, verifying them against known biochemical constraints, and discarding 99% of invalid hypotheses.
+
+### 🏗️ Core Engineering Foundation: Preclinical GraphRAG Synthesizer
+To bridge the gap between commercial applied AI and the grand vision of Project Insight, I am currently developing the **Preclinical GraphRAG Synthesizer** — an architect-level multi-agent system. This project moves away from primitive vector-based RAG (which merely retrieves similar text chunks) toward the strict extraction of facts and logical multi-hop connections. 
+
+The architecture consists of three core engineering blocks:
+
+1. **Graph Database (Neo4j) & Network Mathematics:**
+  Standard RAG is blind to multi-hop logic. If a PDF states *"Substance A inhibits Protein B, which causes Disease C,"* a vector DB (ChromaDB) only returns a text chunk. Neo4j stores this mathematically as a graph: `(Node: Substance A) -[Edge: INHIBITS]-> (Node: Protein B) -[Edge: CAUSES]-> (Node: Disease C)`. This allows for complex Cypher querying and true graph traversal rather than simple cosine similarity.
+2. **Strict Data Extraction (Tool Calling + Pydantic):**
+  To reliably ingest raw PubMed text into Neo4j, the LLM is forced to output rigidly structured JSON triplets (Subject-Predicate-Object), eliminating hallucinations. This is achieved via API-level Function Calling, with FastAPI and Pydantic validating the data types to ensure model errors never crash the backend.
+3. **Agent Orchestration (LangGraph):**
+  The system operates as a Finite State Machine (FSM) rather than a single-pass pipeline. The workflow loops through specialized agents: **Parser Agent** (extracts facts) ➡️ **Critic Agent** (checks for contradictions) ➡️ **Loader Agent** (commits to the graph). This requires advanced state management and cycle control across the execution graph.
+
+### 🧠 Advanced Architectural Pillars
+* **OpenCog Hyperon (Atomspace):** While Neo4j handles rapid traversal, Atomspace serves as the core dynamic storage. It stores biological entities as **hypergraphs** with variable connections, explicitly defining non-linear metabolic pathways for rigorous verification.
+* **Lean-Biology (Formal Verification):** We are developing a formalized language library based on **Lean 4**. If a hypothesis states that *Molecule X suppresses Y*, Lean forces the system to account for all conditions, preventing logical gaps.
+* **Autonomous Auto-Experimentation:** Insight includes a feedback loop for automated Lab-on-a-Chip environments, testing verified predictions in real-time on robotic cell cultures.
+
+### 🛠️ Tech Stack & MVP Focus
+**MVP:** Epigenetic rejuvenation via Yamanaka factors.
+* **Data Extraction:** Python (BeautifulSoup, Playwright) + LLMs (LangChain, Claude 3) to crawl and extract structured triplets from *Aging Cell* and *Nature Aging*.
+* **Bio-Databases (API-First):** Reactome/KEGG, DrugBank, GenAge.
+* **Storage Layer:** Milvus/Qdrant (Vector embeddings) + Neo4j (Graph logic).
+* **Data Provenance:** Every relationship in the database is tagged with its source DOI and Lean verification code.
