@@ -67,26 +67,42 @@
 
 ## 🧬 Featured Enterprise Projects
 
-### 1. [Enterprise Clinical Orchestrator | FHIR-Native GraphRAG Middleware](ссылка)
-
+### 1. [Enterprise Clinical Orchestrator | FHIR-Native GraphRAG Middleware](#)
 **Tech Stack:** FastAPI, LangGraph, Neo4j, Docker, HL7 FHIR
 
 Architected an on-premise, multi-agent integration middleware designed to eliminate medical data silos. Unifies disjointed diagnostic outputs (IBM Watson, Radiology AI) into a secure Patient Knowledge Graph. Fully PDPA/HIPAA compliant.
 
-### 2. [Thai FDA Compliance AI | B2B SaaS](ссылка)
+### 2. [Diagnostic Validation AI | Medical Computer Vision & HITL](#)
+**Tech Stack:** LangGraph, Computer Vision, FastAPI, Docker
 
+Engineered a hybrid multi-agent medical assistant featuring a strict Human-in-the-Loop (HITL) validation architecture. Implemented Confidence-Based Routing to automatically escalate X-ray/MRI scans to human radiologists if AI diagnostic confidence falls below 98%, ensuring Cyber Defence in Depth.
+
+### 3. [Clinical RAG System | Agentic AI & Dynamic Grounding](#)
+**Tech Stack:** Python, LangGraph, SQLite, ChromaDB
+
+Architected a production-ready Agentic AI system achieving 95%+ factual accuracy. Developed a robust Fallback Handler where the Planner-Agent autonomously detects knowledge gaps and safely re-routes queries to verified external medical databases, strictly preventing LLM hallucinations.
+
+### 4. [Autonomous Clinical Coder | NLP & LLM Engineer](#)
+**Tech Stack:** MedGemma, Python, Pydantic, JSON Extraction
+
+Developed an orchestration layer using Router-agents to automate administrative clinical workflows. Parses unstructured patient complaints and physician voice notes, transforming them into strictly formatted SOAP notes and valid ICD-10 JSON payloads for EHR integration.
+
+### 5. [Agentic Patient Concierge | CRM Integration Specialist](#)
+**Tech Stack:** LangGraph, Whisper API, LangFuse, API Integration
+
+Built a fully automated patient interaction system bridging Voice AI with hospital scheduling workflows, serving as a custom alternative to enterprise CRM solutions. Orchestrated agents to automatically manage appointment calendars and trigger real-time notifications.
+
+### 6. [Thai FDA Compliance AI | B2B SaaS](#)
 **Tech Stack:** Python (Asyncio), FastAPI, ChromaDB, Claude 3 API, SQLite
 
 Designed and deployed an asynchronous AI platform for automated compliance scoring of pharmacological formulations against ASEAN/Thai FDA regulations. Implemented a quota-based billing architecture.
 
-### 3. [JCI Regulatory & Protocol AI Assistant](ссылка)
-
+### 7. [JCI Regulatory & Protocol AI Assistant | LLM Ops & RAG Engineer](#)
 **Tech Stack:** Ollama, Llama-3 (8-bit), FAISS, FastAPI, Docker
 
-Developed a secure, on-premise LLM inference system to retrieve internal hospital protocols (JCI) and insurance policies, guaranteeing 100% patient data privacy without external cloud APIs.
+Developed a secure, on-premise LLM inference system to retrieve internal hospital protocols (JCI) and insurance policies, guaranteeing 100% patient data privacy without relying on external cloud APIs.
 
-### 4. [Clinical Data ETL Pipeline & HIS Integrator](ссылка)
-
+### 8. [Clinical Data ETL Pipeline & HIS Integrator | Data Engineer](#)
 **Tech Stack:** PostgreSQL, Pandas, Python (OOP, Asyncio), Regex
 
 Architected a high-throughput data engineering pipeline to clean, validate, and standardize diverse patient records from multiple Health Information Systems (HIS) for downstream AI processing.
