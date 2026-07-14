@@ -1,4 +1,5 @@
-<h1 align="center" style="color: #00B4D8;">Formal Biology & DeepTech Architecture</h1>
+<img width="1264" height="848" alt="git hub" src="https://github.com/user-attachments/assets/8c563a56-2b2a-4517-965d-5c36b2896806" />
+
 
 <p align="center">
  Results-driven Applied AI Engineer specializing in the rapid integration of Large Language Models (LLMs) into B2B and Enterprise workflows. Expert in designing autonomous, hallucination-free Retrieval-Augmented Generation (RAG) pipelines and deploying scalable backend architectures.
