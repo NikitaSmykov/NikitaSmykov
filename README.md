@@ -42,15 +42,19 @@
 
 ---
 
-### 📚 Currently Learning & Exploring
+📚 **Currently Learning & Exploring**
+
+* **Medical Interoperability & Compliance:** `HL7 FHIR`, Medical Ontologies (`SNOMED CT`, `ICD-10`, `LOINC`), and designing `HIPAA/PDPA` compliant data architectures.
+
 * **Medical Computer Vision (Radiology & Pathology):** Exploring diagnostic AI for imaging (X-ray, CT, MRI) to detect anomalies, automate critical triage (strokes/tumors), and digital pathology algorithms for precise biopsy classification and cancer staging.
 
-* **Formal Verification & AGI:** Lean 4, OpenCog Hyperon (Atomspace), AI World Models & Cognitive Architectures.
-* **Agentic AI & Orchestration:** Building autonomous Multi-Agent workflows and LLM Orchestrators.
-* **LLM Engineering (Ops & Tuning):** Fine-Tuning (PEFT/LoRA), Model Quantization, Local Inference Optimization.
-* **Graph Networks (Knowledge Graphs):** Neo4j, NetworkX, PyVis.
-* **Advanced NLP & Scraping:** LlamaIndex, spaCy, Playwright, BeautifulSoup.
-* **Bio-Informatics Research:** Parsing PubMed, PMC, bioRxiv, Google Scholar. Exploring OpenAI's GeneBench-Pro evaluation frameworks.
+* **Computational Biology & Genomics:** `Biopython`, `Scanpy` (Single-cell RNA-seq analysis), Genomic data formats (`FASTA`, `VCF`), and `Nextflow` for orchestrating bio-pipelines. Parsing PubMed, PMC, bioRxiv.
+
+* **Formal Verification & Cognitive Architectures:** `Lean 4`, `OpenCog Hyperon (Atomspace)`, AI World Models, and building logically verifiable reasoning systems. 
+
+* **Agentic AI & Orchestration:** Building autonomous Multi-Agent workflows and advanced LLM Orchestrators for scientific research.
+
+* **Graph Networks (Knowledge Graphs):** `Neo4j (Cypher)`, `NetworkX`. Building biological Knowledge Graphs for Drug Discovery.
 
 ---
 
