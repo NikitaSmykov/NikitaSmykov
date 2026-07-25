@@ -1,5 +1,7 @@
-<img width="493" height="326" alt="photo_5992568247078818273_x" src="https://github.com/user-attachments/assets/9642640b-a7ca-4244-a233-55b599742b4d" />
 
+<p align="center">
+  <img src="<img width="493" height="326" alt="photo_5992568247078818273_x" src="https://github.com/user-attachments/assets/9642640b-a7ca-4244-a233-55b599742b4d" />.jpg" alt="Логотип" width="800">
+</p>
 
 
 
