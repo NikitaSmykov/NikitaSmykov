@@ -25,14 +25,10 @@
 ![Ollama](https://img.shields.io/badge/Ollama-0A2540?style=for-the-badge&logo=ollama&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-0A2540?style=for-the-badge&logo=database&logoColor=white)
 
-<br><br>
-
 **Backend & Data Engineering** <br>
 ![FastAPI](https://img.shields.io/badge/FastAPI-0A2540?style=for-the-badge&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0A2540?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-0A2540?style=for-the-badge&logo=pandas&logoColor=white)
-
-<br><br>
 
 **Infrastructure** <br>
 ![Docker](https://img.shields.io/badge/Docker-0A2540?style=for-the-badge&logo=docker&logoColor=white)
