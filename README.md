@@ -1,8 +1,3 @@
-<img width="493" height="1280" alt="photo_5992568247078818269_y" src="https://github.com/user-attachments/assets/b1e6e841-535a-46fd-b979-db2bf13361bb" />
-
-
-
-
 
 
 
@@ -43,7 +38,7 @@
 </div>
 
 ---
-<img width="493" height="334" alt="photo_5992568247078818272_x" src="https://github.com/user-attachments/assets/c4a26dda-9279-4da6-a6b0-489dcf2b22ac" />
+
 
 
 📚 **Currently Learning & Exploring**
