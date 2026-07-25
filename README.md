@@ -41,8 +41,6 @@
 
 ---
 
-<img width="493" height="334" alt="photo_5992568247078818272_x (1)" src="https://github.com/user-attachments/assets/af49a0c0-5ad3-4672-a1ca-b5f13fd44064" />
-
 
 📚 **Currently Learning & Exploring**
 
@@ -76,7 +74,6 @@
 
 ## 🧬 Featured Enterprise Projects
 
-<img width="493" height="326" alt="photo_5992568247078818273_x (2)" src="https://github.com/user-attachments/assets/b97c313b-3b72-4de6-8a0a-485c4a2de392" />
 
 ### 1. [Enterprise Clinical Orchestrator | FHIR-Native GraphRAG Middleware](#)
 **Tech Stack:** FastAPI, LangGraph, Neo4j, Docker, HL7 FHIR
