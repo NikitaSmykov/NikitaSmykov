@@ -1,4 +1,5 @@
-<img width="1264" height="848" alt="git hub" src="https://github.com/user-attachments/assets/f2673af9-99a6-4089-a451-d00c735ec66a" />
+<img width="6001" height="2008" alt="93" src="https://github.com/user-attachments/assets/a4667eac-e344-4324-8c49-fcdfe2a626e4" />
+
 
 
 
@@ -66,12 +67,7 @@
 </div>
 
 
-
-
 ## 🧬 Featured Enterprise Projects
-
-<img width="6001" height="2008" alt="93" src="https://github.com/user-attachments/assets/bd9bc8dc-f5a3-49e3-8348-40376984758b" />
-
 
 
 ### 1. [Enterprise Clinical Orchestrator | FHIR-Native GraphRAG Middleware](#)
