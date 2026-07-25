@@ -1,3 +1,4 @@
+<img width="1536" height="1024" alt="дизайн сайта" src="https://github.com/user-attachments/assets/fa21f4b1-80ac-41b8-a0d1-cb9be96f406e" />
 
 
 
