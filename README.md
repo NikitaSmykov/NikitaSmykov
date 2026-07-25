@@ -1,3 +1,4 @@
+<img width="493" height="334" alt="photo_5992568247078818272_x (1)" src="https://github.com/user-attachments/assets/96a97f2f-eca7-46db-add7-73bca44a30b5" />
 <img width="1568" height="980" alt="pixel-art-illustration-hospital-background-pixelated-laboratorium-medical-hospital-lab-background-landscape-pixelated-for-the-pixel-art-game-and-icon-for-website-and-video-game-old-school-retro-vector" src="https://github.com/user-attachments/assets/c06bff73-b25b-476e-a77e-d9082aadcfdd" />
 
 
@@ -40,6 +41,7 @@
 
 ---
 
+<img width="493" height="334" alt="photo_5992568247078818272_x (1)" src="https://github.com/user-attachments/assets/af49a0c0-5ad3-4672-a1ca-b5f13fd44064" />
 
 
 📚 **Currently Learning & Exploring**
@@ -57,6 +59,7 @@
 * **Graph Networks (Knowledge Graphs):** `Neo4j (Cypher)`, `NetworkX`. Building biological Knowledge Graphs for Drug Discovery.
 
 ---
+<img width="493" height="326" alt="photo_5992568247078818273_x (2)" src="https://github.com/user-attachments/assets/618f342e-1ddd-4c03-91c1-478d13e45bd8" />
 
 
 ### 📫 Let's Connect
@@ -74,6 +77,7 @@
 </div>
 
 ## 🧬 Featured Enterprise Projects
+<img width="493" height="326" alt="photo_5992568247078818273_x (2)" src="https://github.com/user-attachments/assets/b97c313b-3b72-4de6-8a0a-485c4a2de392" />
 
 ### 1. [Enterprise Clinical Orchestrator | FHIR-Native GraphRAG Middleware](#)
 **Tech Stack:** FastAPI, LangGraph, Neo4j, Docker, HL7 FHIR
