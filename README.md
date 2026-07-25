@@ -57,16 +57,15 @@
 ### 📫 Let's Connect
 
 <div align="center">
- <a href="mailto:nickita.smykov@proton.me">
- <img src="https://img.shields.io/badge/Email-nickita.smykov%40proton.me-004D40?style=for-the-badge&logo=protonmail&logoColor=00B4D8" alt="Email" />
- </a>
- <a href="https://linkedin.com/in/YOUR_LINKEDIN_ID">
- <img src="https://img.shields.io/badge/LinkedIn-00695C?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
- </a>
- <a href="https://pin.it/3K0fpZAmJ">
- <img src="https://img.shields.io/badge/Pinterest-004D40?style=for-the-badge&logo=pinterest&logoColor=00B4D8" alt="Pinterest" />
- </a>
+
+[![Email](https://img.shields.io/badge/Email-0A2540?style=for-the-badge&logo=gmail&logoColor=white)](mailto:твоя_почта@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A2540?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/твоя_ссылка/)
+[![Pinterest](https://img.shields.io/badge/Pinterest-0A2540?style=for-the-badge&logo=pinterest&logoColor=white)](https://pinterest.com/твоя_ссылка/)
+
 </div>
+
+
+
 
 ## 🧬 Featured Enterprise Projects
 
