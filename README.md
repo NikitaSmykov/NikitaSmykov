@@ -1,9 +1,6 @@
 <img width="1536" height="1024" alt="дизайн сайта" src="https://github.com/user-attachments/assets/f1ca1c39-7ce8-4cff-8b54-4cdf8c89461a" />
 
 
-
-
-
 <p align="center">
  Results-driven Applied AI Engineer specializing in the rapid integration of Large Language Models (LLMs) into B2B and Enterprise workflows. Expert in designing autonomous, hallucination-free Retrieval-Augmented Generation (RAG) pipelines and deploying scalable backend architectures.
 </p>
@@ -21,26 +18,28 @@
 ### 🛠️ Core Tech Stack
 
 <div align="center">
- 
+
 **AI & Machine Learning** <br>
-![Python](https://img.shields.io/badge/Python-004D40?style=for-the-badge&logo=python&logoColor=00B4D8)
-![LangChain](https://img.shields.io/badge/LangChain-00695C?style=for-the-badge&logo=chainlink&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-00796B?style=for-the-badge&logo=Ollama&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-00897B?style=for-the-badge&logo=database&logoColor=white)
+![Python](https://img.shields.io/badge/Python-0A2540?style=for-the-badge&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-0A2540?style=for-the-badge&logo=chainlink&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-0A2540?style=for-the-badge&logo=ollama&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-0A2540?style=for-the-badge&logo=database&logoColor=white)
+
+<br><br>
 
 **Backend & Data Engineering** <br>
-![FastAPI](https://img.shields.io/badge/FastAPI-004D40?style=for-the-badge&logo=fastapi&logoColor=00B4D8)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-00695C?style=for-the-badge&logo=postgresql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-00796B?style=for-the-badge&logo=pandas&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0A2540?style=for-the-badge&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0A2540?style=for-the-badge&logo=postgresql&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-0A2540?style=for-the-badge&logo=pandas&logoColor=white)
+
+<br><br>
 
 **Infrastructure** <br>
-![Docker](https://img.shields.io/badge/Docker-00897B?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-004D40?style=for-the-badge&logo=linux&logoColor=00B4D8)
-![Git](https://img.shields.io/badge/Git-00695C?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-0A2540?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-0A2540?style=for-the-badge&logo=linux&logoColor=white)
+![Git](https://img.shields.io/badge/Git-0A2540?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
-
----
 
 
 📚 **Currently Learning & Exploring**
@@ -74,8 +73,6 @@
 </div>
 
 ## 🧬 Featured Enterprise Projects
-
-
 
 
 ### 1. [Enterprise Clinical Orchestrator | FHIR-Native GraphRAG Middleware](#)
