@@ -76,7 +76,7 @@
 Architected an on-premise, multi-agent integration middleware designed to eliminate medical data silos. Unifies disjointed diagnostic outputs (IBM Watson, Radiology AI) into a secure Patient Knowledge Graph. Fully PDPA/HIPAA compliant.
 
 ### 2. [Diagnostic Validation AI | Medical Computer Vision & HITL](https://github.com/NikitaSmykov/Diagnostic-Validation-AI)
-**Tech Stack:** LangGraph, Computer Vision, FastAPI, Docker
+**Tech Stack:** LangGraph, Computer Vision, FastAPI, Docker, Kimi-Linear 48B
 
 Engineered a hybrid multi-agent medical assistant featuring a strict Human-in-the-Loop (HITL) validation architecture. Implemented Confidence-Based Routing to automatically escalate X-ray/MRI scans to human radiologists if AI diagnostic confidence falls below 98%, ensuring Cyber Defence in Depth.
 
