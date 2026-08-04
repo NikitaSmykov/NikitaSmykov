@@ -81,7 +81,7 @@ Architected an on-premise, multi-agent integration middleware designed to elimin
 Engineered a hybrid multi-agent medical assistant featuring a strict Human-in-the-Loop (HITL) validation architecture. Implemented Confidence-Based Routing to automatically escalate X-ray/MRI scans to human radiologists if AI diagnostic confidence falls below 98%, ensuring Cyber Defence in Depth.
 
 ### 3. [Clinical RAG System | Agentic AI & Dynamic Grounding](https://github.com/NikitaSmykov/Clinical-RAG-System)
-**Tech Stack:** Python, LangGraph, SQLite, ChromaDB
+**Tech Stack:** Python, LangGraph, SQLite, ChromaDB, Kimi K3
 
 Architected a production-ready Agentic AI system achieving 95%+ factual accuracy. Developed a robust Fallback Handler where the Planner-Agent autonomously detects knowledge gaps and safely re-routes queries to verified external medical databases, strictly preventing LLM hallucinations.
 
