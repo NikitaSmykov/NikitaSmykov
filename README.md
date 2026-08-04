@@ -96,12 +96,12 @@ Developed an orchestration layer using Router-agents to automate administrative 
 Built a fully automated patient interaction system bridging Voice AI with hospital scheduling workflows, serving as a custom alternative to enterprise CRM solutions. Orchestrated agents to automatically manage appointment calendars and trigger real-time notifications.
 
 ### 6. [Thai FDA Compliance AI | B2B SaaS](#)
-**Tech Stack:** Python (Asyncio), FastAPI, ChromaDB, Claude 3 API, SQLite
+**Tech Stack:** Python (Asyncio), FastAPI, ChromaDB, Claude fable 5 API, SQLite
 
 Designed and deployed an asynchronous AI platform for automated compliance scoring of pharmacological formulations against ASEAN/Thai FDA regulations. Implemented a quota-based billing architecture.
 
 ### 7. [JCI Regulatory & Protocol AI Assistant | LLM Ops & RAG Engineer](#)
-**Tech Stack:** Ollama, Llama-3 (8-bit), FAISS, FastAPI, Docker
+**Tech Stack:** Kimi K3 (WASTE Engine), FAISS, FastAPI, Docker
 
 Developed a secure, on-premise LLM inference system to retrieve internal hospital protocols (JCI) and insurance policies, guaranteeing 100% patient data privacy without relying on external cloud APIs.
 
