@@ -95,7 +95,7 @@ Developed an orchestration layer using Router-agents to automate administrative 
 
 Built a fully automated patient interaction system bridging Voice AI with hospital scheduling workflows, serving as a custom alternative to enterprise CRM solutions. Orchestrated agents to automatically manage appointment calendars and trigger real-time notifications.
 
-### 6. [Thai FDA Compliance AI | B2B SaaS](#)
+### 6. [Thai FDA Compliance AI | B2B SaaS](https://github.com/NikitaSmykov/Thai-FDA-Compliance-AI)
 **Tech Stack:** Python (Asyncio), FastAPI, ChromaDB, Claude fable 5 API, SQLite
 
 Designed and deployed an asynchronous AI platform for automated compliance scoring of pharmacological formulations against ASEAN/Thai FDA regulations. Implemented a quota-based billing architecture.
