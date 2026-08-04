@@ -85,7 +85,7 @@ Engineered a hybrid multi-agent medical assistant featuring a strict Human-in-th
 
 Architected a production-ready Agentic AI system achieving 95%+ factual accuracy. Developed a robust Fallback Handler where the Planner-Agent autonomously detects knowledge gaps and safely re-routes queries to verified external medical databases, strictly preventing LLM hallucinations.
 
-### 4. [Autonomous Clinical Coder | NLP & LLM Engineer](#)
+### 4. [Autonomous Clinical Coder | NLP & LLM Engineer](https://github.com/NikitaSmykov/Autonomous-Clinical-Coder/tree/main)
 **Tech Stack:** MedGemma, Python, Pydantic, JSON Extraction
 
 Developed an orchestration layer using Router-agents to automate administrative clinical workflows. Parses unstructured patient complaints and physician voice notes, transforming them into strictly formatted SOAP notes and valid ICD-10 JSON payloads for EHR integration.
