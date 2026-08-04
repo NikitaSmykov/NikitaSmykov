@@ -106,7 +106,7 @@ Designed and deployed an asynchronous AI platform for automated compliance scori
 Developed a secure, on-premise LLM inference system to retrieve internal hospital protocols (JCI) and insurance policies, guaranteeing 100% patient data privacy without relying on external cloud APIs. Leveraged the WASTE (Weight-Aware Streaming Tensor Engine) to run the full 2.78T-parameter Kimi K3 model on commodity hardware by streaming routed experts from NVMe, eliminating the need for GPU server clusters while preserving full model fidelity (no distillation/pruning).
 
 
-### 8. [Clinical Data ETL Pipeline & HIS Integrator | Data Engineer](#)
+### 8. [Clinical Data ETL Pipeline & HIS Integrator | Data Engineer](https://github.com/NikitaSmykov/Clinical-Data-ETL-Pipeline)
 **Tech Stack:** PostgreSQL, Pandas, Python (OOP, Asyncio), Regex
 
 Architected a high-throughput data engineering pipeline to clean, validate, and standardize diverse patient records from multiple Health Information Systems (HIS) for downstream AI processing.
