@@ -90,7 +90,7 @@ Architected a production-ready Agentic AI system achieving 95%+ factual accuracy
 
 Developed an orchestration layer using Router-agents to automate administrative clinical workflows. Parses unstructured patient complaints and physician voice notes, transforming them into strictly formatted SOAP notes and valid ICD-10 JSON payloads for EHR integration.
 
-### 5. [Agentic Patient Concierge | CRM Integration Specialist](#)
+### 5. [Agentic Patient Concierge | CRM Integration Specialist](https://github.com/NikitaSmykov/Agentic-Patient-Concierge/tree/main)
 **Tech Stack:** LangGraph, Whisper API, LangFuse, API Integration
 
 Built a fully automated patient interaction system bridging Voice AI with hospital scheduling workflows, serving as a custom alternative to enterprise CRM solutions. Orchestrated agents to automatically manage appointment calendars and trigger real-time notifications.
