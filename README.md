@@ -70,7 +70,7 @@
 ## 🧬 Featured Enterprise Projects
 
 
-### 1. [Enterprise Clinical Orchestrator | FHIR-Native GraphRAG Middleware](#)
+### 1. [Enterprise Clinical Orchestrator | FHIR-Native GraphRAG Middleware](https://github.com/NikitaSmykov/Enterprise-Clinical-Orchestrator)
 **Tech Stack:** FastAPI, LangGraph, Neo4j, Docker, HL7 FHIR
 
 Architected an on-premise, multi-agent integration middleware designed to eliminate medical data silos. Unifies disjointed diagnostic outputs (IBM Watson, Radiology AI) into a secure Patient Knowledge Graph. Fully PDPA/HIPAA compliant.
