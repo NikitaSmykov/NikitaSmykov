@@ -9,11 +9,11 @@
 
 ---
 
-### 🧬 What I Do
+### What I Do
 
-- 🔬 **AI & NLP:** Building Multi-Agent systems, hybrid RAG pipelines, and precise data extraction engines.
-- ⚙️ **Backend:** Developing asynchronous, high-load APIs to serve ML models securely and efficiently.
-- 🌐 **Data Engineering:** Structuring unstructured medical/regulatory data (PubMed, FDA compliance) into actionable Knowledge Graphs.
+- **AI & NLP:** Building Multi-Agent systems, hybrid RAG pipelines, and precise data extraction engines.
+- **Backend:** Developing asynchronous, high-load APIs to serve ML models securely and efficiently.
+- **Data Engineering:** Structuring unstructured medical/regulatory data (PubMed, FDA compliance) into actionable Knowledge Graphs.
 
 ---
 
@@ -67,7 +67,7 @@
 </div>
 
 
-## 🧬 Featured Enterprise Projects
+## Featured Enterprise Projects
 
 
 ### 1. [Enterprise Clinical Orchestrator | FHIR-Native GraphRAG Middleware](https://github.com/NikitaSmykov/Enterprise-Clinical-Orchestrator)
