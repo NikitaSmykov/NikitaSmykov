@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 <p align="center">
  Results-driven Applied AI Engineer specializing in the rapid integration of Large Language Models (LLMs) into B2B and Enterprise workflows. Expert in designing autonomous, hallucination-free Retrieval-Augmented Generation (RAG) pipelines and deploying scalable backend architectures.
 </p>
@@ -71,6 +65,9 @@
 
 ## Featured Enterprise Projects
 
+### 0. [115-ФЗ AML Compliance GigaChat | FinTech & Legal AI]()
+**Tech Stack:** Python 3.11 (Asyncio), FastAPI, GigaChat API, ChromaDB, Pydantic
+Developed a B2B Anti-Money Laundering (AML) compliance platform for the Russian banking sector. Implemented an Agentic RAG system powered by Sberbank's GigaChat API and ChromaDB to analyze corporate contracts against Central Bank 
 
 ### 1. [Enterprise Clinical Orchestrator | FHIR-Native GraphRAG Middleware](https://github.com/NikitaSmykov/Enterprise-Clinical-Orchestrator)
 **Tech Stack:** FastAPI, LangGraph, Neo4j, Docker, HL7 FHIR, Kimi K3
