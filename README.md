@@ -114,8 +114,3 @@ Developed a secure, on-premise LLM inference system to retrieve internal hospita
 Architected a high-throughput data engineering pipeline to clean, validate, and standardize diverse patient records from multiple Health Information Systems (HIS) for downstream AI processing.
 
 ---
-
-## 🔬 Independent R&D: Formal Bio-Engineering
-*In parallel with my commercial work, I research logical frameworks for biomedicine.*
-
-The core mission of this initiative is to transition biology from statistical guessing to **Formal Bio-Engineering**. Instead of relying on hallucination-prone LLMs, the research explores translating biological hypotheses into the **Lean 4** formal language and storing non-linear metabolic pathways in hypergraphs (Atomspace) for rigorous automated verification.
