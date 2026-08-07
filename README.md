@@ -65,8 +65,9 @@
 
 ## Featured Enterprise Projects
 
-### 0. [115-ФЗ AML Compliance GigaChat | FinTech & Legal AI]()
+### 0. [115-ФЗ AML Compliance GigaChat | FinTech & Legal AI](https://github.com/NikitaSmykov/115-FZ-AML-Compliance-GigaChat)
 **Tech Stack:** Python 3.11 (Asyncio), FastAPI, GigaChat API, ChromaDB, Pydantic
+
 Developed a B2B Anti-Money Laundering (AML) compliance platform for the Russian banking sector. Implemented an Agentic RAG system powered by Sberbank's GigaChat API and ChromaDB to analyze corporate contracts against Central Bank 
 
 ### 1. [Enterprise Clinical Orchestrator | FHIR-Native GraphRAG Middleware](https://github.com/NikitaSmykov/Enterprise-Clinical-Orchestrator)
