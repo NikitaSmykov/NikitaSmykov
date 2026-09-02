@@ -43,7 +43,9 @@ I am building the **Q.E.D. Engine**, an autonomous pipeline for Zero-Hallucinati
 </div>
 
 
-## Featured Enterprise Projects 
+ ### 📂 Smyk Open-Source Initiatives
+*A collection of internal healthcare infrastructure, multi-agent middleware, and clinical data pipelines developed at **Smykov**, released to the open-source medical AI community.*
+
 
 ### 1. [Enterprise Clinical Orchestrator | FHIR-Native GraphRAG Middleware](https://github.com/NikitaSmykov/Enterprise-Clinical-Orchestrator)
 **Tech Stack:** FastAPI, LangGraph, Neo4j, Docker, HL7 FHIR, Kimi K3
