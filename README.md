@@ -46,7 +46,7 @@ I am building the **Q.E.D. Engine**, an autonomous pipeline for Zero-Hallucinati
 [![Pinterest](https://img.shields.io/badge/Pinterest-404040?style=for-the-badge&logo=pinterest&logoColor=white)](https://pinterest.com/твоя_ссылка/)
 
 </div>
----
+
 
 ## Featured Enterprise Projects 
 
