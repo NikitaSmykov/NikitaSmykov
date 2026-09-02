@@ -37,33 +37,16 @@ I am building the **Q.E.D. Engine**, an autonomous pipeline for Zero-Hallucinati
 *   **Formal Verification & Cognitive Architectures:** Bridging the gap between LLM orchestrators and automated theorem proving (Lean 4) to build logically verifiable reasoning systems for medical research.
 *   **Medical Interoperability & Compliance:** Designing HIPAA/PDPA compliant data architectures using HL7 FHIR and medical ontologies (SNOMED CT).
 
-
-📚 **Currently Learning & Exploring**
-
-* **Medical Interoperability & Compliance:** `HL7 FHIR`, Medical Ontologies (`SNOMED CT`, `ICD-10`, `LOINC`), and designing `HIPAA/PDPA` compliant data architectures.
-
-* **Medical Computer Vision (Radiology & Pathology):** Exploring diagnostic AI for imaging (X-ray, CT, MRI) to detect anomalies, automate critical triage (strokes/tumors), and digital pathology algorithms for precise biopsy classification and cancer staging.
-
-* **Computational Biology & Genomics:** `Biopython`, `Scanpy` (Single-cell RNA-seq analysis), Genomic data formats (`FASTA`, `VCF`), and `Nextflow` for orchestrating bio-pipelines. Parsing PubMed, PMC, bioRxiv.
-
-* **Formal Verification & Cognitive Architectures:** `Lean 4`, `OpenCog Hyperon (Atomspace)`, AI World Models, and building logically verifiable reasoning systems. 
-
-* **Agentic AI & Orchestration:** Building autonomous Multi-Agent workflows and advanced LLM Orchestrators for scientific research.
-
-* **Graph Networks (Knowledge Graphs):** `Neo4j (Cypher)`, `NetworkX`. Building biological Knowledge Graphs for Drug Discovery.
-
----
-
 ### 📫 Let's Connect
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-0A2540?style=for-the-badge&logo=gmail&logoColor=white)](mailto:твоя_почта@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A2540?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/твоя_ссылка/)
-[![Pinterest](https://img.shields.io/badge/Pinterest-0A2540?style=for-the-badge&logo=pinterest&logoColor=white)](https://pinterest.com/твоя_ссылка/)
+[![Email](https://img.shields.io/badge/Email-404040?style=for-the-badge&logo=gmail&logoColor=white)](mailto:твоя_почта@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-404040?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/твоя_ссылка/)
+[![Pinterest](https://img.shields.io/badge/Pinterest-404040?style=for-the-badge&logo=pinterest&logoColor=white)](https://pinterest.com/твоя_ссылка/)
 
 </div>
-
+---
 
 ## Featured Enterprise Projects 
 
