@@ -2,11 +2,6 @@
 <img width="1024" height="1024" alt="photo_5811979148753309333_y" src="https://github.com/user-attachments/assets/c5f1ad98-69af-45ba-9eaa-b065e5e615ef" />
 
 
-<p align="center">
- Results-driven Applied AI Engineer specializing in the rapid integration of Large Language Models (LLMs) into B2B and Enterprise workflows. Expert in designing autonomous, hallucination-free Retrieval-Augmented Generation (RAG) pipelines and deploying scalable backend architectures.
-</p>
-
----
 
 Founder & System Architect at **Smykov** — an AI-Native Biotech company. 
 
