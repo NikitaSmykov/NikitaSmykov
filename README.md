@@ -8,35 +8,34 @@
 
 ---
 
-### What I Do
+Founder & System Architect at **Smykov** — an AI-Native Biotech company. 
 
-- **AI & NLP:** Building Multi-Agent systems, hybrid RAG pipelines, and precise data extraction engines.
-- **Backend:** Developing asynchronous, high-load APIs to serve ML models securely and efficiently.
-- **Data Engineering:** Structuring unstructured medical/regulatory data (PubMed, FDA compliance) into actionable Knowledge Graphs.
+I am building the **Q.E.D. Engine**, an autonomous pipeline for Zero-Hallucination Drug Discovery. My mission is to replace probabilistic AI guessing with formal mathematical verification and biological Knowledge Graphs, engineering safe, patentable therapeutics (First-in-Class & Biobetters) at a fraction of traditional R&D costs.
 
----
+### 🧬 What I Do @ Smykov
 
-### 🛠️ Core Tech Stack
+*   **AI-Native Drug Discovery:** Architecting autonomous Multi-Agent pipelines for fast-track drug repurposing and *de novo* molecular generation.
+*   **Formal Verification (Zero-Hallucination):** Integrating the **Lean 4** theorem prover into biological pipelines to mathematically verify signaling pathways and eliminate LLM hallucinations.
+*   **Graph-RAG & Neurosymbolic AI:** Structuring complex genomic and medical data into actionable Knowledge Graphs (PrimeKG) for precise target identification.
+*   **Backend Engineering:** Deploying asynchronous, high-load APIs to serve Deep Learning models securely and efficiently.
 
-<div align="center">
+### 🛠 Core Tech Stack
 
-**AI & Machine Learning** <br>
-![Python](https://img.shields.io/badge/Python-0A2540?style=for-the-badge&logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-0A2540?style=for-the-badge&logo=chainlink&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-0A2540?style=for-the-badge&logo=ollama&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-0A2540?style=for-the-badge&logo=database&logoColor=white)
+**AI & Bio-Informatics**
+![Python](https://img.shields.io/badge/Python-404040?style=for-the-badge&logo=python&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-404040?style=for-the-badge) ![scGPT](https://img.shields.io/badge/scGPT-404040?style=for-the-badge) ![DeepChem](https://img.shields.io/badge/DeepChem-404040?style=for-the-badge) ![DiffDock](https://img.shields.io/badge/DiffDock-404040?style=for-the-badge)
 
-**Backend & Data Engineering** <br>
-![FastAPI](https://img.shields.io/badge/FastAPI-0A2540?style=for-the-badge&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0A2540?style=for-the-badge&logo=postgresql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-0A2540?style=for-the-badge&logo=pandas&logoColor=white)
+**Knowledge Graphs & Logic**
+![Neo4j](https://img.shields.io/badge/Neo4j-404040?style=for-the-badge&logo=neo4j&logoColor=white) ![Lean 4](https://img.shields.io/badge/Lean_4-404040?style=for-the-badge)
 
-**Infrastructure** <br>
-![Docker](https://img.shields.io/badge/Docker-0A2540?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-0A2540?style=for-the-badge&logo=linux&logoColor=white)
-![Git](https://img.shields.io/badge/Git-0A2540?style=for-the-badge&logo=git&logoColor=white)
+**Backend & Infrastructure**
+![FastAPI](https://img.shields.io/badge/FastAPI-404040?style=for-the-badge&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-404040?style=for-the-badge&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-404040?style=for-the-badge&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-404040?style=for-the-badge&logo=linux&logoColor=white)
 
-</div>
+### 🔭 Current Focus & R&D
+
+*   **Computational Biology & Genomics:** Exploring scRNA-seq data (Scanpy, CellOracle) for precise Gene Regulatory Network (GRN) mapping.
+*   **Molecular Dynamics & ADMET:** Predicting systemic toxicity and pseudotime cellular trajectories (PROGENy, STREAM) to bypass clinical *in vivo* failures.
+*   **Formal Verification & Cognitive Architectures:** Bridging the gap between LLM orchestrators and automated theorem proving (Lean 4) to build logically verifiable reasoning systems for medical research.
+*   **Medical Interoperability & Compliance:** Designing HIPAA/PDPA compliant data architectures using HL7 FHIR and medical ontologies (SNOMED CT).
 
 
 📚 **Currently Learning & Exploring**
