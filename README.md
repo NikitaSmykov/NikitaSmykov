@@ -43,7 +43,7 @@ I am building the **Q.E.D. Engine**, an autonomous pipeline for Zero-Hallucinati
 </div>
 
 
- ### 📂 Smyk Open-Source Initiatives
+ ### 📂 Smykov Open-Source Initiatives
 *A collection of internal healthcare infrastructure, multi-agent middleware, and clinical data pipelines developed at **Smykov**, released to the open-source medical AI community.*
 
 
