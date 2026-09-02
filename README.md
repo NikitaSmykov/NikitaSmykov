@@ -70,18 +70,12 @@ Developed an orchestration layer using Router-agents to automate administrative 
 
 Built a fully automated patient interaction system bridging Voice AI with hospital scheduling workflows, serving as a custom alternative to enterprise CRM solutions. Orchestrated agents to automatically manage appointment calendars and trigger real-time notifications.
 
-### 6. [Thai FDA Compliance AI | B2B SaaS](https://github.com/NikitaSmykov/Thai-FDA-Compliance-AI)
-**Tech Stack:** Python (Asyncio), FastAPI, ChromaDB, Claude fable 5 API, SQLite
-
-Designed and deployed an asynchronous AI platform for automated compliance scoring of pharmacological formulations against ASEAN/Thai FDA regulations. Implemented a quota-based billing architecture.
-
-### 7. [JCI Regulatory & Protocol AI Assistant | LLM Ops & RAG Engineer](https://github.com/NikitaSmykov/JCI-Regulatory-Protocol-AI-Assistant/tree/main)
+### 6. [JCI Regulatory & Protocol AI Assistant | LLM Ops & RAG Engineer](https://github.com/NikitaSmykov/JCI-Regulatory-Protocol-AI-Assistant/tree/main)
 **Tech Stack:** WASTE Engine, Kimi K3 (3-bit MoE), FAISS, FastAPI, Docker
 
 Developed a secure, on-premise LLM inference system to retrieve internal hospital protocols (JCI) and insurance policies, guaranteeing 100% patient data privacy without relying on external cloud APIs. Leveraged the WASTE (Weight-Aware Streaming Tensor Engine) to run the full 2.78T-parameter Kimi K3 model on commodity hardware by streaming routed experts from NVMe, eliminating the need for GPU server clusters while preserving full model fidelity (no distillation/pruning).
 
-
-### 8. [Clinical Data ETL Pipeline & HIS Integrator | Data Engineer](https://github.com/NikitaSmykov/Clinical-Data-ETL-Pipeline)
+### 7. [Clinical Data ETL Pipeline & HIS Integrator | Data Engineer](https://github.com/NikitaSmykov/Clinical-Data-ETL-Pipeline)
 **Tech Stack:** PostgreSQL, Pandas, Python (OOP, Asyncio), Regex
 
 Architected a high-throughput data engineering pipeline to clean, validate, and standardize diverse patient records from multiple Health Information Systems (HIS) for downstream AI processing.
