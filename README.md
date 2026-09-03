@@ -3,11 +3,11 @@
 
 
 
-Founder & System Architect at **Smykov** — an AI-Native Biotech company. 
+Founder & System Architect at **Smyk** — an AI-Native Biotech company. 
 
 I am building the **Q.E.D. Engine**, an autonomous pipeline for Zero-Hallucination Drug Discovery. My mission is to replace probabilistic AI guessing with formal mathematical verification and biological Knowledge Graphs, engineering safe, patentable therapeutics (First-in-Class & Biobetters) at a fraction of traditional R&D costs.
 
-###  What I Do @ Smykov
+###  What I Do @ Smyk
 
 *   **AI-Native Drug Discovery:** Architecting autonomous Multi-Agent pipelines for fast-track drug repurposing and *de novo* molecular generation.
 *   **Formal Verification (Zero-Hallucination):** Integrating the **Lean 4** theorem prover into biological pipelines to mathematically verify signaling pathways and eliminate LLM hallucinations.
@@ -43,8 +43,8 @@ I am building the **Q.E.D. Engine**, an autonomous pipeline for Zero-Hallucinati
 </div>
 
 
- ### 📂 Smykov Open-Source Initiatives
-*A collection of internal healthcare infrastructure, multi-agent middleware, and clinical data pipelines developed at **Smykov**, released to the open-source medical AI community.*
+ ### 📂 Smyk Open-Source Initiatives
+*A collection of internal healthcare infrastructure, multi-agent middleware, and clinical data pipelines developed at **Smyk**, released to the open-source medical AI community.*
 
 
 ### 1. [Enterprise Clinical Orchestrator | FHIR-Native GraphRAG Middleware](https://github.com/NikitaSmykov/Enterprise-Clinical-Orchestrator)
