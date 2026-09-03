@@ -7,7 +7,7 @@ Founder & System Architect at **Smykov** — an AI-Native Biotech company.
 
 I am building the **Q.E.D. Engine**, an autonomous pipeline for Zero-Hallucination Drug Discovery. My mission is to replace probabilistic AI guessing with formal mathematical verification and biological Knowledge Graphs, engineering safe, patentable therapeutics (First-in-Class & Biobetters) at a fraction of traditional R&D costs.
 
-### 🧬 What I Do @ Smykov
+###  What I Do @ Smykov
 
 *   **AI-Native Drug Discovery:** Architecting autonomous Multi-Agent pipelines for fast-track drug repurposing and *de novo* molecular generation.
 *   **Formal Verification (Zero-Hallucination):** Integrating the **Lean 4** theorem prover into biological pipelines to mathematically verify signaling pathways and eliminate LLM hallucinations.
@@ -25,7 +25,7 @@ I am building the **Q.E.D. Engine**, an autonomous pipeline for Zero-Hallucinati
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-404040?style=for-the-badge&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-404040?style=for-the-badge&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-404040?style=for-the-badge&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-404040?style=for-the-badge&logo=linux&logoColor=white)
 
-### 🔭 Current Focus & R&D
+###  Current Focus & R&D
 
 *   **Computational Biology & Genomics:** Exploring scRNA-seq data (Scanpy, CellOracle) for precise Gene Regulatory Network (GRN) mapping.
 *   **Molecular Dynamics & ADMET:** Predicting systemic toxicity and pseudotime cellular trajectories (PROGENy, STREAM) to bypass clinical *in vivo* failures.
