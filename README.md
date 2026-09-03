@@ -16,13 +16,13 @@ I am building the **Q.E.D. Engine**, an autonomous pipeline for Zero-Hallucinati
 
 ### 🛠 Core Tech Stack
 
-**AI & Bio-Informatics**
+
 ![Python](https://img.shields.io/badge/Python-404040?style=for-the-badge&logo=python&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-404040?style=for-the-badge) ![scGPT](https://img.shields.io/badge/scGPT-404040?style=for-the-badge) ![DeepChem](https://img.shields.io/badge/DeepChem-404040?style=for-the-badge) ![DiffDock](https://img.shields.io/badge/DiffDock-404040?style=for-the-badge)
 
-**Knowledge Graphs & Logic**
+
 ![Neo4j](https://img.shields.io/badge/Neo4j-404040?style=for-the-badge&logo=neo4j&logoColor=white) ![Lean 4](https://img.shields.io/badge/Lean_4-404040?style=for-the-badge)
 
-**Backend & Infrastructure**
+
 ![FastAPI](https://img.shields.io/badge/FastAPI-404040?style=for-the-badge&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-404040?style=for-the-badge&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-404040?style=for-the-badge&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-404040?style=for-the-badge&logo=linux&logoColor=white)
 
 ### 🔭 Current Focus & R&D
