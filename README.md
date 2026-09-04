@@ -45,7 +45,7 @@ I am building the **Q.E.D. Engine**, an autonomous pipeline for Zero-Hallucinati
 
 
  ### 📂 Polyphoros Open-Source Initiatives
-*A collection of internal healthcare infrastructure, multi-agent middleware, and clinical data pipelines developed at **Smyk**, released to the open-source medical AI community.*
+*A collection of internal healthcare infrastructure, multi-agent middleware, and clinical data pipelines developed at **Polyphoros**, released to the open-source medical AI community.*
 
 
 ### 1. [Enterprise Clinical Orchestrator | FHIR-Native GraphRAG Middleware](https://github.com/NikitaSmykov/Enterprise-Clinical-Orchestrator)
