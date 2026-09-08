@@ -9,17 +9,38 @@ My research and engineering efforts are entirely dedicated to computational neur
 ### 🧠 ACNN (Applied Centre for Neuroscience and Neurology)
 *Currently in stealth R&D mode.* Building the middleware and safety protocols for clinical BCI deployment, neural telemetry decoding, and functional connectome mapping.
 
-### 🛠 Core Tech Stack
 
+## 🛠 The ACNN Tech Stack: Full-Cycle BCI & Connectome Architecture
 
-![Python](https://img.shields.io/badge/Python-404040?style=for-the-badge&logo=python&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-404040?style=for-the-badge) ![scGPT](https://img.shields.io/badge/scGPT-404040?style=for-the-badge) ![DeepChem](https://img.shields.io/badge/DeepChem-404040?style=for-the-badge) ![DiffDock](https://img.shields.io/badge/DiffDock-404040?style=for-the-badge)
+To bridge the gap between carbon and silicon, my engineering stack spans low-latency signal processing, neuromorphic simulation, and formally verified AI orchestration.
 
+###  BCI Telemetry & Signal Processing (Read/Write Layer)
+*Extracting and decoding real-time neural spikes with zero-latency.*
+- **Brain-Computer Interfacing:** `LSL (Lab Streaming Layer)`, `OpenBCI`, `SpikeInterface`
+- **Time-Series Analysis & DSP:** `MNE-Python`, `Brainstorm`, `SciPy`, `Digital Signal Processing (DSP)`
+- **Low-Latency Bridging:** `Rust`, `C++` (for microsecond-precision cortical stimulation routing)
 
-![Neo4j](https://img.shields.io/badge/Neo4j-404040?style=for-the-badge&logo=neo4j&logoColor=white) ![Lean 4](https://img.shields.io/badge/Lean_4-404040?style=for-the-badge)
+###  Computational Neuroscience & In Silico Emulation
+*Simulating the functional connectome and testing the "Ship of Theseus" protocols.*
+- **Neuromorphic Emulation:** `NEST Simulator`, `NEURON`, `Brian 2` (Spiking Neural Network frameworks)
+- **Cognitive Node Modeling:** `Nengo` (Large-scale brain modeling)
+- **Graph Architecture:** `Neo4j`, `NetworkX`, `PrimeKG` (Mapping 3D synaptic pathways)
 
+###  Neuro-Symbolic AI & Agentic Orchestration
+*Translating raw EEG/ECoG noise into structured semantic commands.*
+- **Agentic Frameworks:** `LangGraph`, `AutoGPT`, `CrewAI`
+- **Foundation Models:** `Kimi K3`, `Llama 3`, `Transformers (Time-Series & Vision)`
+- **Dynamic Grounding:** `GraphRAG`, `ChromaDB`, `FAISS`
 
-![FastAPI](https://img.shields.io/badge/FastAPI-404040?style=for-the-badge&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-404040?style=for-the-badge&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-404040?style=for-the-badge&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-404040?style=for-the-badge&logo=linux&logoColor=white)
+###  Formal Verification & Cyber Defence (Zero-Hallucination)
+*Mathematically proving that BCI feedback loops cannot harm the biological host.*
+- **Theorem Proving:** `Lean 4` (Formal verification of neural API safety bounds)
+- **Safety Engineering:** `Human-in-the-Loop (HITL)`, `Confidence-Based Routing`
 
+###  Infrastructure & High-Performance Computing (HPC)
+*Running tera-parameter models and connectome simulations on premise.*
+- **Compute:** `CUDA`, `Triton`, `WASTE Engine` (Weight-Aware Streaming Tensor Engine)
+- **Ops:** `Docker`, `Kubernetes`, `FastAPI`, `PostgreSQL`, `HL7 FHIR` (for clinical compliance)
 ---
 
 ## 📂 ACNN Open-Source Initiatives
