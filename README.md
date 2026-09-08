@@ -1,6 +1,6 @@
 <img width="1364" height="768" alt="photo_5839202116059205906_w" src="https://github.com/user-attachments/assets/a5109834-457e-4f78-a593-7356c972c0d5" />
 
-# Nikita Smykov
+
 
 **Applied AI Engineer | System Architect | Founder & Director at ACNN**
 
