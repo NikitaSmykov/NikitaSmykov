@@ -5,7 +5,7 @@
 
 My research and engineering efforts are entirely dedicated to computational neuroscience, neuro-informatics, and the software infrastructure for next-generation Brain-Computer Interfaces (BCI).
 
-### 🧠 ACNN (Applied Centre for Neuroscience and Neurology)
+### ACNN (Applied Centre for Neuroscience and Neurology)
 *Currently in stealth R&D mode.* Building the middleware and safety protocols for clinical BCI deployment, neural telemetry decoding, and functional connectome mapping.
 
 
@@ -41,7 +41,6 @@ To bridge the gap between carbon and silicon, my engineering stack spans low-lat
 - **Compute:** `CUDA`, `Triton`, `WASTE Engine` (Weight-Aware Streaming Tensor Engine)
 - **Ops:** `Docker`, `Kubernetes`, `FastAPI`, `PostgreSQL`, `HL7 FHIR` (for clinical compliance)
 ---
-
 
 📂 ACNN Open-Source Initiatives
 
