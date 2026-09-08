@@ -2,7 +2,7 @@
 
 
 
-**Applied AI Engineer | System Architect | Founder & Director at ACNN**
+**Applied AI Engineer | Founder & Director at ACNN**
 
 My research and engineering efforts are entirely dedicated to computational neuroscience, neuro-informatics, and the software infrastructure for next-generation Brain-Computer Interfaces (BCI).
 
