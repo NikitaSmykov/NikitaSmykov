@@ -1,7 +1,7 @@
 <img width="1364" height="768" alt="photo_5839202116059205906_w" src="https://github.com/user-attachments/assets/a5109834-457e-4f78-a593-7356c972c0d5" />
 
 
-                                                                        **Applied AI Engineer | Founder & Director at ACNN**
+**Applied AI Engineer | Founder & Director at ACNN**
 
 My research and engineering efforts are entirely dedicated to computational neuroscience, neuro-informatics, and the software infrastructure for next-generation Brain-Computer Interfaces (BCI).
 
