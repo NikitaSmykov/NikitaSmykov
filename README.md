@@ -66,6 +66,10 @@ Built an in silico emulation environment combining Spiking Neural Networks (SNNs
 **Tech Stack:** `Apache Kafka`, `PostgreSQL`, `MNE-Python`, `Docker`, `HL7 FHIR`
 Engineered a distributed, high-throughput ETL architecture to ingest, denoise, and standardize continuous multi-terabyte neural time-series data streams across distributed BCI clinical trials. Ensures zero data loss and strict HIPAA/PDPA compliance for sensitive brain-computer interface telemetry.
 
+### 6. ACNN-Drosophila-SNN | In Silico Connectome Emulation
+**Tech Stack:** `neuprint-python`, `Brian 2`, `NetworkX`, `Neo4j`, `SciPy`
+Engineered an in silico emulation pipeline to extract, map, and functionally simulate targeted sensori-motor sub-graphs of the adult Drosophila melanogaster connectome. Interfaced with the Janelia hemibrain database to convert static synaptic topologies into dynamic Spiking Neural Networks (SNNs). This serves as a foundational neuromorphic sandbox for testing closed-loop BCI routing protocols before mammalian in vivo deployment.
+
 ---
 *"Solve intelligence, and then use that to solve everything else."*
 
@@ -74,9 +78,9 @@ Engineered a distributed, high-throughput ETL architecture to ingest, denoise, a
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-404040?style=for-the-badge&logo=gmail&logoColor=white)](mailto:твоя_почта@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-404040?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/твоя_ссылка/)
-[![Pinterest](https://img.shields.io/badge/Pinterest-404040?style=for-the-badge&logo=pinterest&logoColor=white)](https://pinterest.com/твоя_ссылка/)
+[![Email](https://img.shields.io/badge/Email-002B5B?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nikos230612@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-002B5B?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/твоя_ссылка/)
+[![ORCID](https://img.shields.io/badge/ORCID-002B5B?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/my-orcid?orcid=0009-0007-2913-5960)
 
 </div>
 
