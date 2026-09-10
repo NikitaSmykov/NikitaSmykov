@@ -16,7 +16,7 @@ Building the **Q.E.D. Engine**—a proprietary, deterministic *in silico* pipeli
 #### The Polyphoros Tech Stack (Core Capabilities)
 To process massive biological datasets and orchestrate autonomous research securely, I utilize a high-throughput, locally deployable AI stack:
 
-*   **Applied AI & Local Inference:** `PyTorch`, `Hugging Face Transformers`, `vLLM` (High-throughput serving), `Ollama` (Local Llama-3/Qwen), `BitsAndBytes` (4/8-bit Quantization).
+*   **Applied AI & Local Inference:** `PyTorch`, `Hugging Face Transformers`, `vLLM` (High-throughput serving), `Ollama - Kimi` (Local Kimi K3 - Llama-3/Qwen), `BitsAndBytes` (4/8-bit Quantization).
 *   **Agentic Orchestration:** `LangGraph` (Cyclic workflows), `LangChain`, `Model Context Protocol (MCP)`.
 *   **Knowledge Graphs & RAG:** `Neo4j` (Graph Databases), `Qdrant` (Hybrid Search), `ChromaDB`, Semantic Chunking.
 *   **Formal Verification:** `Lean 4` (Theorem proving for logic verification).
