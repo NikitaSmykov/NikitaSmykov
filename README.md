@@ -8,12 +8,12 @@ My research and engineering efforts are divided into two highly specialized deep
   <img width="600" alt="Polyphoros Logo" src="https://github.com/user-attachments/assets/2e7c9499-f829-4995-af25-6b49add4bea0">
 </div>
 
-### 🧬 Polyphoros | AI-Native Biotech & Drug Discovery
+### Polyphoros | AI-Native Biotech & Drug Discovery
 *Focus: De novo generation, biobetter engineering, and computational drug repurposing.*
 
 Building the **Q.E.D. Engine**—a proprietary, deterministic *in silico* pipeline. We automate target identification and structural synthesis while utilizing formal mathematical verification prior to *in vivo* trials.
 
-#### ⚙️ The Polyphoros Tech Stack (Core Capabilities)
+#### The Polyphoros Tech Stack (Core Capabilities)
 To process massive biological datasets and orchestrate autonomous research securely, I utilize a high-throughput, locally deployable AI stack:
 
 *   **Applied AI & Local Inference:** `PyTorch`, `Hugging Face Transformers`, `vLLM` (High-throughput serving), `Ollama` (Local Llama-3/Qwen), `BitsAndBytes` (4/8-bit Quantization).
@@ -47,10 +47,10 @@ Developed an orchestration layer using Router-agents to automate administrative 
   <img width="600" alt="ACNN Logo" src="https://github.com/user-attachments/assets/2f35b463-0127-4549-b24e-026af15b3f16">
 </div>
 
-### 🧠 ACNN (Applied Centre for Neuroscience and Neurology)
+### ACNN (Applied Centre for Neuroscience and Neurology)
 *[Currently in Stealth R&D mode]* Building the middleware and safety protocols for clinical BCI (Brain-Computer Interface) deployment, neural telemetry decoding, and functional connectome mapping.
 
-#### 🛠 The ACNN Tech Stack: Full-Cycle BCI Architecture
+#### The ACNN Tech Stack: Full-Cycle BCI Architecture
 To bridge the gap between carbon and silicon, my engineering stack spans low-latency signal processing, neuromorphic simulation, and formally verified AI orchestration.
 
 *   **BCI Telemetry & Signal Processing:** `LSL (Lab Streaming Layer)`, `OpenBCI`, `SpikeInterface`, `MNE-Python`, `Rust`, `C++`.
