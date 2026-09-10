@@ -30,19 +30,27 @@ To process massive biological datasets and orchestrate autonomous research, I ut
 A collection of internal healthcare infrastructure, multi-agent middleware, and clinical data pipelines developed at Polyphoros, released to the open-source medical AI community.
 
 **1. Q.E.D. Clinical Orchestrator | FHIR-Native GraphRAG Middleware**
+
 *Tech Stack: FastAPI, LangGraph, Qdrant, Docker, HL7 FHIR*
+
 Architected an on-premise, multi-agent integration middleware designed to eliminate medical data silos. Unifies disjointed diagnostic outputs into a secure Patient Knowledge Graph. Fully PDPA/HIPAA compliant, utilizing local LLM inference to guarantee data privacy.
 
 **2. Diagnostic Validation AI | Medical Computer Vision & HITL**
+
 *Tech Stack: LangGraph, Computer Vision, FastAPI, Docker, Llama-3 (Local)*
+
 Engineered a hybrid multi-agent medical assistant featuring a strict Human-in-the-Loop (HITL) validation architecture. Implemented Confidence-Based Routing to automatically escalate complex scans to human specialists if AI diagnostic confidence falls below 98%, ensuring Cyber Defence in Depth.
 
 **3. Bio-Literature RAG System | Agentic AI & Dynamic Grounding**
+
 *Tech Stack: Python, LangGraph, PostgreSQL, LlamaIndex, Qdrant*
+
 Architected a production-ready Agentic AI system for parsing complex pharmacological research. Developed a robust Fallback Handler where the Planner-Agent autonomously detects knowledge gaps and safely re-routes queries to verified external medical databases, strictly preventing LLM hallucinations.
 
 **4. Autonomous Clinical Coder | NLP & LLM Engineer**
+
 *Tech Stack: PyTorch, vLLM, Python, Pydantic, JSON Extraction*
+
 Developed an orchestration layer using Router-agents to automate administrative clinical workflows. Parses unstructured patient complaints and physician voice notes, transforming them into strictly formatted SOAP notes and valid ICD-10 JSON payloads for EHR integration.
 
 
