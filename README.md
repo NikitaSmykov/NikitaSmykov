@@ -16,33 +16,38 @@ Building the **Q.E.D. Engine**—a deterministic, 4-stage in silico pipeline. We
 *   **Structural Synthesis:** `GENTRL`, `DiffDock`, `ESM-3` (Reverse engineering of natural toxins).
 *   **Toxicity & Pseudotime:** `DeepChem`, `PROGENy`, `STREAM/VITAE`.
 
-### 📂 Polyphoros Open-Source Initiatives
+#### The Polyphoros Tech Stack (Bio-Engineering Infrastructure)
+To process massive biological datasets and orchestrate autonomous research, I utilize a high-throughput, locally deployable AI stack:
 
-*A collection of internal healthcare infrastructure, multi-agent middleware, and clinical data pipelines developed at **Smyk**, released to the open-source medical AI community.*
+*   **Applied AI & Local Inference:** `PyTorch`, `Hugging Face Transformers`, `vLLM` (High-throughput serving), `Ollama` (Local Llama-3/Qwen for secure medical data), `BitsAndBytes` (4/8-bit Quantization), `OpenRouter API`.
+*   **Agentic AI & Orchestration:** `LangGraph` (Cyclic drug-discovery workflows), `LangChain`, `Model Context Protocol (MCP)`.
+*   **Advanced RAG & Vector Search:** `LlamaIndex`, `Qdrant` (Hybrid Search for biomedical literature), `ChromaDB`, `FAISS`, Semantic/Recursive Chunking.
+*   **Data Engineering & ETL:** `Python 3 (OOP/Asyncio)`, `Pandas/Regex` (Data Cleansing), `Scrapy/BeautifulSoup` (Parsing FDA/Clinical databases).
+*   **Databases:** `PostgreSQL` (Advanced SQL, CTEs, Window Functions for clinical data structuring).
+*   **Backend, MLOps & Observability:** `FastAPI`, `Docker / Docker-compose`, `LangSmith` (Agent prompt tracing), `Prometheus + Grafana` (Hardware and GPU inference monitoring).
 
-1. Enterprise Clinical Orchestrator | FHIR-Native GraphRAG Middleware
+#### 📂 Polyphoros Open-Source Initiatives
+A collection of internal healthcare infrastructure, multi-agent middleware, and clinical data pipelines developed at Polyphoros, released to the open-source medical AI community.
 
-Tech Stack: FastAPI, LangGraph, Neo4j, Docker, HL7 FHIR
+**1. Q.E.D. Clinical Orchestrator | FHIR-Native GraphRAG Middleware**
+*Tech Stack: FastAPI, LangGraph, Qdrant, Docker, HL7 FHIR*
+Architected an on-premise, multi-agent integration middleware designed to eliminate medical data silos. Unifies disjointed diagnostic outputs into a secure Patient Knowledge Graph. Fully PDPA/HIPAA compliant, utilizing local LLM inference to guarantee data privacy.
 
-Architected an on-premise, multi-agent integration middleware designed to eliminate medical data silos. Unifies disjointed diagnostic outputs (IBM Watson, Radiology AI) into a secure Patient Knowledge Graph. Fully PDPA/HIPAA compliant.
+**2. Diagnostic Validation AI | Medical Computer Vision & HITL**
+*Tech Stack: LangGraph, Computer Vision, FastAPI, Docker, Llama-3 (Local)*
+Engineered a hybrid multi-agent medical assistant featuring a strict Human-in-the-Loop (HITL) validation architecture. Implemented Confidence-Based Routing to automatically escalate complex scans to human specialists if AI diagnostic confidence falls below 98%, ensuring Cyber Defence in Depth.
 
-2. Diagnostic Validation AI | Medical Computer Vision & HITL
+**3. Bio-Literature RAG System | Agentic AI & Dynamic Grounding**
+*Tech Stack: Python, LangGraph, PostgreSQL, LlamaIndex, Qdrant*
+Architected a production-ready Agentic AI system for parsing complex pharmacological research. Developed a robust Fallback Handler where the Planner-Agent autonomously detects knowledge gaps and safely re-routes queries to verified external medical databases, strictly preventing LLM hallucinations.
 
-Tech Stack: LangGraph, Computer Vision, FastAPI, Docker
-
-Engineered a hybrid multi-agent medical assistant featuring a strict Human-in-the-Loop (HITL) validation architecture. Implemented Confidence-Based Routing to automatically escalate X-ray/MRI scans to human radiologists if AI diagnostic confidence falls below 98%, ensuring Cyber Defence in Depth.
-
-3. Clinical RAG System | Agentic AI & Dynamic Grounding
-
-Tech Stack: Python, LangGraph, SQLite, ChromaDB
-
-Architected a production-ready Agentic AI system achieving 95%+ factual accuracy. Developed a robust Fallback Handler where the Planner-Agent autonomously detects knowledge gaps and safely re-routes queries to verified external medical databases, strictly preventing LLM hallucinations.
-
-4. Autonomous Clinical Coder | NLP & LLM Engineer
-
-Tech Stack: MedGemma, Python, Pydantic, JSON Extraction
-
+**4. Autonomous Clinical Coder | NLP & LLM Engineer**
+*Tech Stack: PyTorch, vLLM, Python, Pydantic, JSON Extraction*
 Developed an orchestration layer using Router-agents to automate administrative clinical workflows. Parses unstructured patient complaints and physician voice notes, transforming them into strictly formatted SOAP notes and valid ICD-10 JSON payloads for EHR integration.
+
+
+
+
 
 
  ACNN (Applied Centre for Neuroscience and Neurology)
