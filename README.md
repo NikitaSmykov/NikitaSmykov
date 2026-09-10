@@ -10,11 +10,6 @@ Polyphoros | AI-Native Biotech & Drug Discovery
 *Focus: De novo generation, biobetters, and epigenetic reprogramming agents.*
 Building the **Q.E.D. Engine**—a deterministic, 4-stage in silico pipeline. We automate target identification and structural synthesis while mathematically verifying the safety pathways (ADMET) of generated molecules prior to *in vivo* trials.
 
-**Polyphoros Open-Source & Architecture Initiatives:**
-*   **Q.E.D. Engine Core:** `LangGraph`, `AutoGPT`, `Lean 4` (Formal verification adapter for drug safety).
-*   **Target ID & Repurposing:** `PrimeKG` (Neo4j), `scGPT`, `CellOracle`.
-*   **Structural Synthesis:** `GENTRL`, `DiffDock`, `ESM-3` (Reverse engineering of natural toxins).
-*   **Toxicity & Pseudotime:** `DeepChem`, `PROGENy`, `STREAM/VITAE`.
 
 #### The Polyphoros Tech Stack (Bio-Engineering Infrastructure)
 To process massive biological datasets and orchestrate autonomous research, I utilize a high-throughput, locally deployable AI stack:
