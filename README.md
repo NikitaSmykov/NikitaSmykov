@@ -22,24 +22,6 @@ To process massive biological datasets and orchestrate autonomous research secur
 *   **Formal Verification:** `Lean 4` (Theorem proving for logic verification).
 *   **Backend, MLOps & Data:** `Python 3 (OOP/Asyncio)`, `PostgreSQL`, `FastAPI`, `Docker`, `Prometheus + Grafana`, `LangSmith`.
 
-#### 📂 Polyphoros Open-Source Initiatives
-A collection of internal healthcare infrastructure, multi-agent middleware, and clinical data pipelines developed at Polyphoros, released to the open-source medical AI community.
-
-**1. Q.E.D. Clinical Orchestrator | FHIR-Native GraphRAG Middleware**
-*Tech Stack: `FastAPI`, `LangGraph`, `Qdrant`, `Docker`, `HL7 FHIR`*
-Architected an on-premise, multi-agent integration middleware designed to eliminate medical data silos. Unifies disjointed diagnostic outputs into a secure Patient Knowledge Graph. Fully PDPA/HIPAA compliant, utilizing local LLM inference to guarantee data privacy.
-
-**2. Diagnostic Validation AI | Medical Computer Vision & HITL**
-*Tech Stack: `LangGraph`, `Computer Vision`, `FastAPI`, `Docker`, `Llama-3 (Local)`*
-Engineered a hybrid multi-agent medical assistant featuring a strict Human-in-the-Loop (HITL) validation architecture. Implemented Confidence-Based Routing to automatically escalate complex scans to human specialists if AI diagnostic confidence falls below 98%, ensuring Cyber Defence in Depth.
-
-**3. Bio-Literature RAG System | Agentic AI & Dynamic Grounding**
-*Tech Stack: `Python`, `LangGraph`, `PostgreSQL`, `LlamaIndex`, `Qdrant`*
-Architected a production-ready Agentic AI system for parsing complex pharmacological research. Developed a robust Fallback Handler where the Planner-Agent autonomously detects knowledge gaps and safely re-routes queries to verified external medical databases, strictly preventing LLM hallucinations.
-
-**4. Autonomous Clinical Coder | NLP & LLM Engineer**
-*Tech Stack: `PyTorch`, `vLLM`, `Python`, `Pydantic`, `JSON Extraction`*
-Developed an orchestration layer using Router-agents to automate administrative clinical workflows. Parses unstructured patient complaints and physician voice notes, transforming them into strictly formatted SOAP notes and valid ICD-10 JSON payloads for EHR integration.
 
 ---
 
@@ -83,6 +65,36 @@ Engineered a distributed, high-throughput ETL architecture to ingest, denoise, a
 **6. ACNN-Drosophila-SNN | In Silico Connectome Emulation**
 *Tech Stack: `neuprint-python`, `Brian 2`, `NetworkX`, `Neo4j`, `SciPy`*
 Engineered an in silico emulation pipeline to extract, map, and functionally simulate targeted sensori-motor sub-graphs of the adult Drosophila melanogaster connectome. Serves as a foundational neuromorphic sandbox for testing closed-loop BCI routing protocols.
+
+**7. ACNN Clinical Orchestrator | FHIR-Native GraphRAG Middleware**
+*Tech Stack: `FastAPI`, `LangGraph`, `Qdrant`, `Docker`, `HL7 FHIR`*
+Architected an on-premise, multi-agent integration middleware designed to eliminate medical data silos in neurology clinics. Unifies disjointed diagnostic outputs into a secure Patient Knowledge Graph. Fully PDPA/HIPAA compliant, utilizing local LLM inference to guarantee data privacy.
+
+**8. Neural Diagnostic Validation AI | fMRI & HITL**
+*Tech Stack: `LangGraph`, `Computer Vision`, `FastAPI`, `Docker`, `Llama-3 (Local)`*
+Engineered a hybrid multi-agent medical assistant featuring a strict Human-in-the-Loop (HITL) validation architecture. Implemented Confidence-Based Routing to automatically escalate complex fMRI and neuro-imaging scans to human specialists if AI diagnostic confidence falls below 98%.
+
+**9. Autonomous Clinical Coder | EHR Integration**
+*Tech Stack: `PyTorch`, `vLLM`, `Python`, `Pydantic`, `JSON Extraction`*
+Developed an orchestration layer using Router-agents to automate administrative clinical workflows. Parses unstructured neuro-rehabilitation complaints and physician voice notes, transforming them into strictly formatted SOAP notes and valid ICD-10 JSON payloads for EHR integration.
+
+**10. Agentic BCI-Rehab Concierge | API Integration Specialist**
+
+*Tech Stack: `LangGraph`, `Whisper API`, `LangFuse`, `API Integration`*
+
+Built a fully automated patient interaction system bridging Voice AI with neuro-clinic scheduling workflows, serving as a custom alternative to enterprise CRM solutions. Orchestrated agents to automatically manage post-op implant calibration appointments and trigger real-time neuro-telemetry check notifications.
+
+**11. FDA BCI Regulatory & Protocol AI Assistant | LLM Ops & RAG Engineer**
+
+*Tech Stack: `Ollama`, `Llama-3 (8-bit)`, `FAISS`, `FastAPI`, `Docker`*
+
+Developed a secure, on-premise LLM inference system to retrieve internal neurosurgery protocols (JCI) and FDA BCI compliance regulations, guaranteeing 100% neural data privacy without relying on external cloud APIs.
+
+**12. BCI Telemetry ETL Pipeline & HIS Integrator | Data Engineer**
+
+*Tech Stack: `PostgreSQL`, `Pandas`, `Python (OOP, Asyncio)`, `Regex`, `MNE-Python`*
+
+Architected a high-throughput data engineering pipeline to clean, validate, and standardize continuous neural time-series data (EEG/ECoG) alongside diverse patient records from multiple Health Information Systems (HIS) for downstream AI processing.
 
 ---
 
