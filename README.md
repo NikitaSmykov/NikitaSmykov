@@ -1,4 +1,4 @@
- Applied AI Engineer | Founder of Polyphoros & ACNN**
+ Applied AI Engineer | Founder of Polyphoros & ACNN
 
 My research and engineering efforts are divided into two highly specialized deep-tech vectors: **AI-Native Biotechnology** and **Computational Neuroscience**. My core engineering philosophy centers on *Zero-Hallucination AI*—bridging LLMs, large-scale knowledge graphs, and formal mathematical verification (Lean 4) to eliminate probabilistic errors in critical biological systems.
 
