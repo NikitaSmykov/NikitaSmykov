@@ -79,21 +79,15 @@ Engineered a hybrid multi-agent medical assistant featuring a strict Human-in-th
 Developed an orchestration layer using Router-agents to automate administrative clinical workflows. Parses unstructured neuro-rehabilitation complaints and physician voice notes, transforming them into strictly formatted SOAP notes and valid ICD-10 JSON payloads for EHR integration.
 
 **10. Agentic BCI-Rehab Concierge | API Integration Specialist**
-
 *Tech Stack: `LangGraph`, `Whisper API`, `LangFuse`, `API Integration`*
-
 Built a fully automated patient interaction system bridging Voice AI with neuro-clinic scheduling workflows, serving as a custom alternative to enterprise CRM solutions. Orchestrated agents to automatically manage post-op implant calibration appointments and trigger real-time neuro-telemetry check notifications.
 
 **11. FDA BCI Regulatory & Protocol AI Assistant | LLM Ops & RAG Engineer**
-
 *Tech Stack: `Ollama`, `Llama-3 (8-bit)`, `FAISS`, `FastAPI`, `Docker`*
-
 Developed a secure, on-premise LLM inference system to retrieve internal neurosurgery protocols (JCI) and FDA BCI compliance regulations, guaranteeing 100% neural data privacy without relying on external cloud APIs.
 
 **12. BCI Telemetry ETL Pipeline & HIS Integrator | Data Engineer**
-
 *Tech Stack: `PostgreSQL`, `Pandas`, `Python (OOP, Asyncio)`, `Regex`, `MNE-Python`*
-
 Architected a high-throughput data engineering pipeline to clean, validate, and standardize continuous neural time-series data (EEG/ECoG) alongside diverse patient records from multiple Health Information Systems (HIS) for downstream AI processing.
 
 ---
