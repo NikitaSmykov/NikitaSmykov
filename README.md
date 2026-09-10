@@ -1,12 +1,32 @@
-<img width="1364" height="768" alt="photo_5839202116059205906_w" src="https://github.com/user-attachments/assets/a5109834-457e-4f78-a593-7356c972c0d5" />
 
+**Applied AI Engineer | Founder of Polyphoros & ACNN**
 
-**Applied AI Engineer | Founder & Director at ACNN**
+My research and engineering efforts are divided into two highly specialized deep-tech vectors: **AI-Native Biotechnology** and **Computational Neuroscience**. My core engineering philosophy centers on *Zero-Hallucination AI*—bridging LLMs, large-scale knowledge graphs, and formal mathematical verification (Lean 4) to eliminate probabilistic errors in critical biological systems.
 
-My research and engineering efforts are entirely dedicated to computational neuroscience, neuro-informatics, and the software infrastructure for next-generation Brain-Computer Interfaces (BCI).
+Polyphoros | AI-Native Biotech & Drug Discovery
 
-### ACNN (Applied Centre for Neuroscience and Neurology)
-*Currently in stealth R&D mode.* Building the middleware and safety protocols for clinical BCI deployment, neural telemetry decoding, and functional connectome mapping.
+<img width="1024" height="1024" alt="Логотип Polyphoros" src="https://github.com/user-attachments/assets/2e7c9499-f829-4995-af25-6b49add4bea0" />
+
+*Focus: De novo generation, biobetters, and epigenetic reprogramming agents.*
+Building the **Q.E.D. Engine**—a deterministic, 4-stage in silico pipeline. We automate target identification and structural synthesis while mathematically verifying the safety pathways (ADMET) of generated molecules prior to *in vivo* trials.
+
+**Polyphoros Open-Source & Architecture Initiatives:**
+*   **Q.E.D. Engine Core:** `LangGraph`, `AutoGPT`, `Lean 4` (Formal verification adapter for drug safety).
+*   **Target ID & Repurposing:** `PrimeKG` (Neo4j), `scGPT`, `CellOracle`.
+*   **Structural Synthesis:** `GENTRL`, `DiffDock`, `ESM-3` (Reverse engineering of natural toxins).
+*   **Toxicity & Pseudotime:** `DeepChem`, `PROGENy`, `STREAM/VITAE`.
+
+ ACNN (Applied Centre for Neuroscience and Neurology)
+ <img width="1364" height="768" alt="photo_5839202116059205906_w" src="https://github.com/user-attachments/assets/2f35b463-0127-4549-b24e-026af15b3f16" />
+
+*[Currently in Stealth R&D mode]* Building the middleware and safety protocols for clinical BCI (Brain-Computer Interface) deployment, neural telemetry decoding, and functional connectome mapping.
+
+**ACNN Infrastructure Stack:**
+*   **ACNN-SafeStim:** Formally verified closed-loop BCI router (`Lean 4`, `Rust`, `Embedded C`). Guarantees zero-seizure cortical stimulation.
+*   **ACNN-Drosophila-SNN:** *In Silico* connectome emulation (`neuprint-python`, `Brian 2`, `Neo4j`). Translating static synaptic topologies into dynamic Spiking Neural Networks.
+*   **ACNN-CorticalStream:** Ultra-low latency spike sorting & motor decoding (`Rust`, `C++`, `SpikeInterface`).
+*   **ACNN-TelemetryCore:** High-throughput ECoG/EEG distributed pipeline (`Apache Kafka`, `PostgreSQL`, `MNE-Python`).
+
 
 
 ## 🛠 The ACNN Tech Stack: Full-Cycle BCI & Connectome Architecture
