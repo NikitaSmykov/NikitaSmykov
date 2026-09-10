@@ -16,6 +16,35 @@ Building the **Q.E.D. Engine**—a deterministic, 4-stage in silico pipeline. We
 *   **Structural Synthesis:** `GENTRL`, `DiffDock`, `ESM-3` (Reverse engineering of natural toxins).
 *   **Toxicity & Pseudotime:** `DeepChem`, `PROGENy`, `STREAM/VITAE`.
 
+### 📂 Polyphoros Open-Source Initiatives
+
+*A collection of internal healthcare infrastructure, multi-agent middleware, and clinical data pipelines developed at **Smyk**, released to the open-source medical AI community.*
+
+1. Enterprise Clinical Orchestrator | FHIR-Native GraphRAG Middleware
+
+Tech Stack: FastAPI, LangGraph, Neo4j, Docker, HL7 FHIR
+
+Architected an on-premise, multi-agent integration middleware designed to eliminate medical data silos. Unifies disjointed diagnostic outputs (IBM Watson, Radiology AI) into a secure Patient Knowledge Graph. Fully PDPA/HIPAA compliant.
+
+2. Diagnostic Validation AI | Medical Computer Vision & HITL
+
+Tech Stack: LangGraph, Computer Vision, FastAPI, Docker
+
+Engineered a hybrid multi-agent medical assistant featuring a strict Human-in-the-Loop (HITL) validation architecture. Implemented Confidence-Based Routing to automatically escalate X-ray/MRI scans to human radiologists if AI diagnostic confidence falls below 98%, ensuring Cyber Defence in Depth.
+
+3. Clinical RAG System | Agentic AI & Dynamic Grounding
+
+Tech Stack: Python, LangGraph, SQLite, ChromaDB
+
+Architected a production-ready Agentic AI system achieving 95%+ factual accuracy. Developed a robust Fallback Handler where the Planner-Agent autonomously detects knowledge gaps and safely re-routes queries to verified external medical databases, strictly preventing LLM hallucinations.
+
+4. Autonomous Clinical Coder | NLP & LLM Engineer
+
+Tech Stack: MedGemma, Python, Pydantic, JSON Extraction
+
+Developed an orchestration layer using Router-agents to automate administrative clinical workflows. Parses unstructured patient complaints and physician voice notes, transforming them into strictly formatted SOAP notes and valid ICD-10 JSON payloads for EHR integration.
+
+
  ACNN (Applied Centre for Neuroscience and Neurology)
  <img width="1364" height="768" alt="photo_5839202116059205906_w" src="https://github.com/user-attachments/assets/2f35b463-0127-4549-b24e-026af15b3f16" />
 
