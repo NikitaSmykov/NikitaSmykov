@@ -64,7 +64,7 @@ Built an in silico emulation environment combining Spiking Neural Networks (SNNs
 
 ### 5. ACNN-TelemetryCore | High-Throughput ECoG/EEG Distributed Pipeline
 **Tech Stack:** `Apache Kafka`, `PostgreSQL`, `MNE-Python`, `Docker`, `HL7 FHIR`
-Engineered a distributed, high-throughput ETL architecture to ingest, denoise, and standardize continuous multi-terabyte neural time-series data streams across distributed BCI clinical trials. Ensures zero data loss and strict HIPAA/PDPA compliance for sensitive brain-computer interface telemetry.
+Engineered a distributed, high-throughput ETL architecture to ingest, denoise, and standardize continuous multi-terabyte neural time-series data streams across distributed BCI clinical trials. Ensures zero data loss and strict HIPAA/PDPA compliance for sensitive brain-computer interface telemetry. Architecture designed with forward-compatibility for non-invasive, high-density neural telemetry (e.g., optical readout from electro-plasmonic nanoantennas and magnetoelectric stimulation), addressing the signal demultiplexing bottleneck inherent in nanoparticle BCI distribution.
 
 ### 6. ACNN-Drosophila-SNN | In Silico Connectome Emulation
 **Tech Stack:** `neuprint-python`, `Brian 2`, `NetworkX`, `Neo4j`, `SciPy`
