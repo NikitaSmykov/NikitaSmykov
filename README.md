@@ -39,8 +39,8 @@ To bridge the gap between carbon and silicon, my engineering stack spans low-lat
 *   **Neuromorphic & Connectome Emulation:** `NEST Simulator`, `NEURON`, `Brian 2`, `Nengo`, `Neo4j` (3D synaptic pathways).
 *   **Formal Verification & Cyber Defence:** `Lean 4` (Neural API safety bounds), `Human-in-the-Loop (HITL)`.
 
-#### 📂 ACNN Open-Source Initiatives
-A collection of internal low-latency infrastructure, neuromorphic middleware, and clinical BCI telemetry pipelines developed at ACNN.
+#### 📂 ACNN Open-Source Initiatives | My Core Engineering Portfolio
+My personal contributions to the open-source BCI community. This section contains the low-latency infrastructure and neuromorphic middleware that I designed, coded, and deployed from scratch as the technical foundation for ACNN.
 
 **1. ACNN-CorticalStream | Ultra-Low Latency Spike Sorting & Motor Decoding**
 *Tech Stack: `Rust`, `C++`, `CUDA`, `TensorRT`, `SpikeInterface`, `LSL`*
