@@ -61,6 +61,8 @@ Engineered a distributed, high-throughput ETL architecture in Python to ingest, 
 **9. GeneNetwork-Emulator | AI-Accelerated Pathway Emulation**
 *Tech Stack: `PyTorch`, `CellOracle`, `Neo4j`, `Lean 4`*
 Engineered a foundational *in silico* emulation pipeline for mapping Gene Regulatory Networks (GRNs). Reconstructed basic cellular pathways into a directed multi-graph (Neo4j). Achieved fast execution of pathway perturbations using tensor-optimized computations in PyTorch.
+
+
 ---
 
 > *"Solve intelligence, and then use that to solve everything else."*
