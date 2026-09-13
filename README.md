@@ -19,11 +19,7 @@ To process massive biomedical datasets and orchestrate autonomous research secur
 ---
 
 ### 📂 Independent R&D & Open-Source Portfolio
-My independent R&D and open-source contributions focus heavily on software infrastructure for clinical Brain-Computer Interfaces (BCI), low-latency neural telemetry, and formally verified AI orchestration.
 
-*Note: The core Q.E.D. Engine and its formal verification pipelines (Polyphoros) are strictly proprietary and closed-source. The repositories below are foundational open-source utilities and generic benchmarks.*
-
-### 📂 Independent R&D & Open-Source Portfolio
 *Note: The core Q.E.D. Engine and its formal verification pipelines (Polyphoros) are strictly proprietary and closed-source. The repositories below are foundational open-source utilities, generic cheminformatics benchmarks, and data-engineering modules.*
 
 **1. BioKG-ETL | Medical Knowledge Graph Processor**
