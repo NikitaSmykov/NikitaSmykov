@@ -15,7 +15,7 @@ To process massive biomedical datasets and orchestrate autonomous research secur
 * **Formal Verification:** `Lean 4` (Theorem proving for logic verification).
 * **Backend, MLOps & Data:** `Python 3 (OOP/Asyncio)`, `PostgreSQL`, `FastAPI`, `Docker`, `Prometheus + Grafana`.
 
-### 📘 Future Learning Objectives
+### Future Learning Objectives
 Technologies and systems I plan to explore and master in the future:
 
 *   **Systems & Bare-Metal:** `Rust`, `Modern C++ (17/20)`, `Embedded C`.
