@@ -41,7 +41,7 @@ Built an *in silico* emulation environment combining Spiking Neural Networks (SN
 *Tech Stack: `Apache Kafka`, `PostgreSQL`, `MNE-Python`, `Docker`, `HL7 FHIR`*
 Engineered a distributed, high-throughput ETL architecture in Python to ingest, denoise, and standardize continuous multi-terabyte neural time-series data streams across distributed BCI clinical trials.
 
-**6. Drosophila-SNN | AI-Accelerated Connectome Emulation**
+**6. Drosophila | AI-Accelerated Connectome Emulation**
 *Tech Stack: `PyTorch`, `neuprint-python`, `Brian 2`, `Neo4j`, `Lean 4`*
 Engineered an *in silico* emulation pipeline for the adult Drosophila melanogaster connectome (138,000+ neurons). Reconstructed full sensori-motor pathways into a directed multi-graph (Neo4j). Achieved real-time execution of Spiking Neural Networks using tensor-optimized computations in PyTorch.
 
