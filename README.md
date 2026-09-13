@@ -5,8 +5,8 @@ My research and engineering efforts are divided into two highly specialized deep
 ---
 
 <div align="center">
- <img width="600" alt="Polyphoros Logo" src="https://github.com/user-attachments/assets/2e7c9499-f829-4995-af25-6b49add4bea0">
-</div>
+<img width="1024" height="352" alt="photo_5850515798651244623_y" src="https://github.com/user-attachments/assets/54b7c7b8-82bb-45b3-b57c-bf1bee01cd54" />
+
 
 ### Polyphoros | AI-Native Biotech & Drug Discovery
 *Focus: De novo generation, biobetter engineering, and computational drug repurposing.*
