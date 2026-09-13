@@ -19,8 +19,9 @@ To process massive biomedical datasets and orchestrate autonomous research secur
 Technologies and systems I plan to explore and master in the future:
 
 *   **Systems & Bare-Metal:** `Rust`, `Modern C++ (17/20)`, `Embedded C`.
-*   **High-Performance Computing (HPC):** `CUDA`, `TensorRT`, `FPGA / Verilog`.
-*   **Signal Processing & Simulation:** Digital Signal Processing (DSP), `SpikeInterface`, `NEST Simulator`.
+*   **High-Performance & Neuromorphic Computing:** `CUDA`, `FPGA / Verilog`, `Lava (Intel Loihi)`, Hardware-accelerated SNNs.
+*   **Signal Processing & Cybernetics:** Digital Signal Processing (DSP), `SpikeInterface`, `Kalman Filters`, Optimal Control Theory.
+*   **Neural Security:** `Fully Homomorphic Encryption (FHE)` for secure BCI telemetry.
 ---
 
 > *"Solve intelligence, and then use that to solve everything else."*
