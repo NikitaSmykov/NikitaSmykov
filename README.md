@@ -16,16 +16,12 @@ To process massive biomedical datasets and orchestrate autonomous research secur
 * **Neuro-Telemetry & Signals:** `LSL (Lab Streaming Layer)`, `MNE-Python`, `SpikeInterface`, `NEST Simulator`.
 * **Backend, MLOps & Data:** `Python 3 (OOP/Asyncio)`, `PostgreSQL`, `FastAPI`, `Docker`, `Prometheus + Grafana`.
 
-### 🌌 Future Research Vectors: Clinical BCI & Substrate-Independent Computing
-While my primary commercial focus is AI-Native Biotech (Polyphoros), my active academic interest and current learning path lie in **Advanced Brain-Computer Interfaces (BCI) and Substrate-Independent Computing**. 
+### 📘 Future Learning Objectives
+Technologies and systems I plan to explore and master in the future:
 
-My long-term engineering objective centers on high-density closed-loop neural prosthetics and gradual neural replacement architectures. Rather than static brain mapping (which yields discontinuous copies), the focus is on real-time, *in vivo* functional offloading—ensuring continuous cognitive integration and state-synchronization between biological tissue and neuromorphic systems. To achieve this, I am actively expanding my low-level systems and DSP stack.
-
-**Target Neuro-Engineering Stack (In Progress):**
-*   **Systems & Bare-Metal:** `Rust` (Memory safety for neuro-implants), `Modern C++ (17/20)`, `Embedded C`.
-*   **High-Performance Computing (HPC):** `CUDA`, `TensorRT`, `FPGA / Verilog` (Hardware acceleration).
-*   **Neural DSP & Telemetry:** Real-time Digital Signal Processing (DSP), `SpikeInterface`, `LSL (Lab Streaming Layer)`.
-*   **Neuromorphic Engineering:** Closed-loop neural bridging, Spiking Neural Networks (SNNs), real-time state synchronization algorithms.
+*   **Systems & Bare-Metal:** `Rust`, `Modern C++ (17/20)`, `Embedded C`.
+*   **High-Performance Computing (HPC):** `CUDA`, `TensorRT`, `FPGA / Verilog`.
+*   **Signal Processing & Simulation:** Digital Signal Processing (DSP), `SpikeInterface`, `NEST Simulator`.
 ---
 
 > *"Solve intelligence, and then use that to solve everything else."*
