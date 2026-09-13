@@ -77,12 +77,12 @@ Architected a high-throughput data engineering pipeline to clean, validate, and 
 
 <div align="center">
   <a href="mailto:твоя_почта@gmail.com">
-    <img src="https://img.shields.io/badge/Email-002B5B?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-778388?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://www.linkedin.com/in/твоя_ссылка/">
-    <img src="https://img.shields.io/badge/LinkedIn-002B5B?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-778388?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://orcid.org/my-orcid?orcid=0009-0007-2913-5960">
-    <img src="https://img.shields.io/badge/ORCID-002B5B?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" />
+    <img src="https://img.shields.io/badge/ORCID-778388?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" />
   </a>
 </div>
