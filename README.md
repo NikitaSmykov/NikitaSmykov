@@ -71,10 +71,18 @@ Architected a high-throughput data engineering pipeline to clean, validate, and 
 
 ---
 
+
+
 > *"Solve intelligence, and then use that to solve everything else."*
 
 <div align="center">
-[![Email](https://img.shields.io/badge/Email-002B5B?style=for-the-badge&logo=gmail&logoColor=white)](mailto:твоя_почта@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-002B5B?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/твоя_ссылка/)
-[![ORCID](https://img.shields.io/badge/ORCID-002B5B?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/my-orcid?orcid=0009-0007-2913-5960)
+  <a href="mailto:твоя_почта@gmail.com">
+    <img src="https://img.shields.io/badge/Email-002B5B?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://www.linkedin.com/in/твоя_ссылка/">
+    <img src="https://img.shields.io/badge/LinkedIn-002B5B?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://orcid.org/my-orcid?orcid=0009-0007-2913-5960">
+    <img src="https://img.shields.io/badge/ORCID-002B5B?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" />
+  </a>
 </div>
