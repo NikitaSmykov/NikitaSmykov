@@ -1,41 +1,25 @@
- Applied AI Engineer | Founder of Polyphoros & Independent Researcher
+### Applied AI Engineer & Computational Researcher
 
-My research and engineering efforts are divided into two highly specialized deep-tech vectors: **AI-Native Biotechnology** and **Computational Neuroscience**. My core engineering philosophy centers on *Zero-Hallucination AI*—bridging LLMs, large-scale knowledge graphs, and formal mathematical verification (Lean 4) to eliminate probabilistic errors in critical biological systems.
+I am an Applied AI Engineer specializing in neuroinformatics, AI-native biotechnology, and distributed systems. Currently, I am the founder of Polyphoros, where I lead the development of the Q.E.D. Engine—a deterministic *in silico* drug discovery pipeline. 
+
+My core engineering philosophy centers on building *Zero-Hallucination AI*. I bridge localized LLMs, large-scale knowledge graphs, and formal mathematical verification (Lean 4) to eliminate probabilistic errors in critical systems.
 
 ---
 
-<div align="center">
-<img width="1024" height="352" alt="photo_5850515798651244623_y" src="https://github.com/user-attachments/assets/54b7c7b8-82bb-45b3-b57c-bf1bee01cd54" /></div>
+### 🛠 Core Engineering Stack
+To process massive biomedical datasets and orchestrate autonomous research securely, I utilize a high-throughput, locally deployable stack:
 
-
-### Polyphoros | AI-Native Biotech & Drug Discovery
-*Focus: De novo generation, biobetter engineering, and computational drug repurposing.*
-
-Building the **Q.E.D. Engine**—a proprietary, deterministic *in silico* pipeline. We automate target identification and structural synthesis while utilizing formal mathematical verification prior to *in vivo* trials.
-
-#### The Polyphoros Tech Stack (Core Capabilities)
-To process massive biological datasets and orchestrate autonomous research securely, I utilize a high-throughput, locally deployable AI stack:
-
-* **Applied AI & Local Inference:** `PyTorch`, `Hugging Face Transformers`, `vLLM` (High-throughput serving), `Ollama - Kimi` (Local Kimi K3 - Llama-3/Qwen), `BitsAndBytes` (4/8-bit Quantization).
+* **Applied AI & Local Inference:** `PyTorch`, `Hugging Face Transformers`, `vLLM` (High-throughput serving), `Ollama - Kimi` (Local Kimi K3 - Llama-3/Qwen), `BitsAndBytes`.
 * **Agentic Orchestration:** `LangGraph` (Cyclic workflows), `LangChain`, `Model Context Protocol (MCP)`.
 * **Knowledge Graphs & RAG:** `Neo4j` (Graph Databases), `Qdrant` (Hybrid Search), `ChromaDB`, Semantic Chunking.
 * **Formal Verification:** `Lean 4` (Theorem proving for logic verification).
-* **Backend, MLOps & Data:** `Python 3 (OOP/Asyncio)`, `PostgreSQL`, `FastAPI`, `Docker`, `Prometheus + Grafana`, `LangSmith`.
+* **Neuro-Telemetry & Signals:** `LSL (Lab Streaming Layer)`, `MNE-Python`, `SpikeInterface`, `NEST Simulator`.
+* **Backend, MLOps & Data:** `Python 3 (OOP/Asyncio)`, `PostgreSQL`, `FastAPI`, `Docker`, `Prometheus + Grafana`.
 
 ---
 
-### Computational Neuroscience & Clinical BCI Research
-*Independent R&D Focus:* Building the middleware and safety protocols for clinical BCI (Brain-Computer Interface) deployment, neural telemetry decoding, and functional connectome mapping.
-
-#### Core Tech Stack: Full-Cycle BCI Architecture
-To bridge the gap between carbon and silicon, my engineering stack spans low-latency signal processing, neuromorphic simulation, and formally verified AI orchestration.
-
-* **BCI Telemetry & Signal Processing:** `LSL (Lab Streaming Layer)`, `OpenBCI`, `SpikeInterface`, `MNE-Python`, `Rust`, `C++`.
-* **Neuromorphic & Connectome Emulation:** `NEST Simulator`, `NEURON`, `Brian 2`, `Nengo`, `Neo4j` (3D synaptic pathways).
-* **Formal Verification & Cyber Defence:** `Lean 4` (Neural API safety bounds), `Human-in-the-Loop (HITL)`.
-
-#### 📂 Open-Source BCI Initiatives | Core Engineering Portfolio
-My personal contributions to the open-source BCI community. This section contains the low-latency infrastructure and neuromorphic middleware that I designed, coded, and deployed from scratch to advance clinical BCI integrations.
+### 📂 Independent R&D & Open-Source Portfolio
+My independent R&D and open-source contributions focus heavily on software infrastructure for clinical Brain-Computer Interfaces (BCI), low-latency neural telemetry, and formally verified AI orchestration.
 
 **1. CorticalStream | Ultra-Low Latency Spike Sorting & Motor Decoding**
 *Tech Stack: `Rust`, `C++`, `CUDA`, `TensorRT`, `SpikeInterface`, `LSL`*
@@ -59,11 +43,11 @@ Engineered a distributed, high-throughput ETL architecture to ingest, denoise, a
 
 **6. Drosophila-SNN | Hardware-Accelerated Neuromorphic Connectome Emulation**
 *Tech Stack: `neuprint-python`, `Brian 2`, `CUDA`, `Neo4j`, `SpiNNaker/Loihi Emulation`, `Lean 4`*
-Engineered a GPU-accelerated *in silico* emulation pipeline for the adult Drosophila melanogaster connectome (138,000+ neurons). Reconstructed full sensori-motor pathways from the Janelia hemibrain database into a directed multi-graph (Neo4j). Achieved real-time execution of Spiking Neural Networks (SNNs) with sub-millisecond synaptic latency. Integrated Lean 4 to formally verify routing topologies, providing a deterministic neuromorphic sandbox for testing closed-loop BCI protocols prior to mammalian deployment.
+Engineered a GPU-accelerated *in silico* emulation pipeline for the adult Drosophila melanogaster connectome (138,000+ neurons). Reconstructed full sensori-motor pathways from the Janelia hemibrain database into a directed multi-graph (Neo4j). Achieved real-time execution of Spiking Neural Networks (SNNs) with sub-millisecond synaptic latency.
 
 **7. Clinical Orchestrator | FHIR-Native GraphRAG Middleware**
 *Tech Stack: `FastAPI`, `LangGraph`, `Qdrant`, `Docker`, `HL7 FHIR`*
-Architected an on-premise, multi-agent integration middleware designed to eliminate medical data silos in neurology clinics. Unifies disjointed diagnostic outputs into a secure Patient Knowledge Graph. Fully PDPA/HIPAA compliant, utilizing local LLM inference to guarantee data privacy.
+Architected an on-premise, multi-agent integration middleware designed to eliminate medical data silos in neurology clinics. Unifies disjointed diagnostic outputs into a secure Patient Knowledge Graph. Fully PDPA/HIPAA compliant.
 
 **8. Neural Diagnostic Validation AI | fMRI & HITL**
 *Tech Stack: `LangGraph`, `Computer Vision`, `FastAPI`, `Docker`, `Llama-3 (Local)`*
@@ -75,7 +59,7 @@ Developed an orchestration layer using Router-agents to automate administrative 
 
 **10. Agentic BCI-Rehab Concierge | API Integration Specialist**
 *Tech Stack: `LangGraph`, `Whisper API`, `LangFuse`, `API Integration`*
-Built a fully automated patient interaction system bridging Voice AI with neuro-clinic scheduling workflows, serving as a custom alternative to enterprise CRM solutions. Orchestrated agents to automatically manage post-op implant calibration appointments and trigger real-time neuro-telemetry check notifications.
+Built a fully automated patient interaction system bridging Voice AI with neuro-clinic scheduling workflows, serving as a custom alternative to enterprise CRM solutions.
 
 **11. FDA BCI Regulatory & Protocol AI Assistant | LLM Ops & RAG Engineer**
 *Tech Stack: `Ollama`, `Llama-3 (8-bit)`, `FAISS`, `FastAPI`, `Docker`*
@@ -88,3 +72,9 @@ Architected a high-throughput data engineering pipeline to clean, validate, and 
 ---
 
 > *"Solve intelligence, and then use that to solve everything else."*
+
+<div align="center">
+[![Email](https://img.shields.io/badge/Email-002B5B?style=for-the-badge&logo=gmail&logoColor=white)](mailto:твоя_почта@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-002B5B?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/твоя_ссылка/)
+[![ORCID](https://img.shields.io/badge/ORCID-002B5B?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/my-orcid?orcid=0009-0007-2913-5960)
+</div>
