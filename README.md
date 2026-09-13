@@ -1,11 +1,11 @@
- Applied AI Engineer | Founder of Polyphoros & ACNN
+ Applied AI Engineer | Founder of Polyphoros & Independent Researcher
 
 My research and engineering efforts are divided into two highly specialized deep-tech vectors: **AI-Native Biotechnology** and **Computational Neuroscience**. My core engineering philosophy centers on *Zero-Hallucination AI*—bridging LLMs, large-scale knowledge graphs, and formal mathematical verification (Lean 4) to eliminate probabilistic errors in critical biological systems.
 
 ---
 
 <div align="center">
-  <img width="600" alt="Polyphoros Logo" src="https://github.com/user-attachments/assets/2e7c9499-f829-4995-af25-6b49add4bea0">
+ <img width="600" alt="Polyphoros Logo" src="https://github.com/user-attachments/assets/2e7c9499-f829-4995-af25-6b49add4bea0">
 </div>
 
 ### Polyphoros | AI-Native Biotech & Drug Discovery
@@ -16,56 +16,52 @@ Building the **Q.E.D. Engine**—a proprietary, deterministic *in silico* pipeli
 #### The Polyphoros Tech Stack (Core Capabilities)
 To process massive biological datasets and orchestrate autonomous research securely, I utilize a high-throughput, locally deployable AI stack:
 
-*   **Applied AI & Local Inference:** `PyTorch`, `Hugging Face Transformers`, `vLLM` (High-throughput serving), `Ollama - Kimi` (Local Kimi K3 - Llama-3/Qwen), `BitsAndBytes` (4/8-bit Quantization).
-*   **Agentic Orchestration:** `LangGraph` (Cyclic workflows), `LangChain`, `Model Context Protocol (MCP)`.
-*   **Knowledge Graphs & RAG:** `Neo4j` (Graph Databases), `Qdrant` (Hybrid Search), `ChromaDB`, Semantic Chunking.
-*   **Formal Verification:** `Lean 4` (Theorem proving for logic verification).
-*   **Backend, MLOps & Data:** `Python 3 (OOP/Asyncio)`, `PostgreSQL`, `FastAPI`, `Docker`, `Prometheus + Grafana`, `LangSmith`.
-
+* **Applied AI & Local Inference:** `PyTorch`, `Hugging Face Transformers`, `vLLM` (High-throughput serving), `Ollama - Kimi` (Local Kimi K3 - Llama-3/Qwen), `BitsAndBytes` (4/8-bit Quantization).
+* **Agentic Orchestration:** `LangGraph` (Cyclic workflows), `LangChain`, `Model Context Protocol (MCP)`.
+* **Knowledge Graphs & RAG:** `Neo4j` (Graph Databases), `Qdrant` (Hybrid Search), `ChromaDB`, Semantic Chunking.
+* **Formal Verification:** `Lean 4` (Theorem proving for logic verification).
+* **Backend, MLOps & Data:** `Python 3 (OOP/Asyncio)`, `PostgreSQL`, `FastAPI`, `Docker`, `Prometheus + Grafana`, `LangSmith`.
 
 ---
 
-<div align="center">
-  <img width="600" alt="ACNN Logo" src="https://github.com/user-attachments/assets/2f35b463-0127-4549-b24e-026af15b3f16">
-</div>
+### Computational Neuroscience & Clinical BCI Research
+*Independent R&D Focus:* Building the middleware and safety protocols for clinical BCI (Brain-Computer Interface) deployment, neural telemetry decoding, and functional connectome mapping.
 
-### ACNN (Applied Centre for Neuroscience and Neurology)
-*[Currently in Stealth R&D mode]* Building the middleware and safety protocols for clinical BCI (Brain-Computer Interface) deployment, neural telemetry decoding, and functional connectome mapping.
-
-#### The ACNN Tech Stack: Full-Cycle BCI Architecture
+#### Core Tech Stack: Full-Cycle BCI Architecture
 To bridge the gap between carbon and silicon, my engineering stack spans low-latency signal processing, neuromorphic simulation, and formally verified AI orchestration.
 
-*   **BCI Telemetry & Signal Processing:** `LSL (Lab Streaming Layer)`, `OpenBCI`, `SpikeInterface`, `MNE-Python`, `Rust`, `C++`.
-*   **Neuromorphic & Connectome Emulation:** `NEST Simulator`, `NEURON`, `Brian 2`, `Nengo`, `Neo4j` (3D synaptic pathways).
-*   **Formal Verification & Cyber Defence:** `Lean 4` (Neural API safety bounds), `Human-in-the-Loop (HITL)`.
+* **BCI Telemetry & Signal Processing:** `LSL (Lab Streaming Layer)`, `OpenBCI`, `SpikeInterface`, `MNE-Python`, `Rust`, `C++`.
+* **Neuromorphic & Connectome Emulation:** `NEST Simulator`, `NEURON`, `Brian 2`, `Nengo`, `Neo4j` (3D synaptic pathways).
+* **Formal Verification & Cyber Defence:** `Lean 4` (Neural API safety bounds), `Human-in-the-Loop (HITL)`.
 
-#### 📂 ACNN Open-Source Initiatives | My Core Engineering Portfolio
-My personal contributions to the open-source BCI community. This section contains the low-latency infrastructure and neuromorphic middleware that I designed, coded, and deployed from scratch as the technical foundation for ACNN.
+#### 📂 Open-Source BCI Initiatives | Core Engineering Portfolio
+My personal contributions to the open-source BCI community. This section contains the low-latency infrastructure and neuromorphic middleware that I designed, coded, and deployed from scratch to advance clinical BCI integrations.
 
-**1. ACNN-CorticalStream | Ultra-Low Latency Spike Sorting & Motor Decoding**
+**1. CorticalStream | Ultra-Low Latency Spike Sorting & Motor Decoding**
 *Tech Stack: `Rust`, `C++`, `CUDA`, `TensorRT`, `SpikeInterface`, `LSL`*
 Architected a bare-metal DSP pipeline for real-time spike sorting from 1024-channel high-density microelectrode arrays. Implemented a sub-millisecond motor intent decoding engine using quantized edge-optimized RNNs deployed via TensorRT.
 
-**2. ACNN-SafeStim | Formally Verified Closed-Loop BCI Router**
+**2. SafeStim | Formally Verified Closed-Loop BCI Router**
 *Tech Stack: `Lean 4`, `Rust`, `Embedded C`, `Formal Methods`*
 Engineered a mathematical verification layer for write-access cortical stimulation. Utilized the Lean 4 theorem prover to formally guarantee that dynamic electrical stimulation parameters generated by ML models will never exceed safe charge-density thresholds.
 
-**3. ACNN-ImplantVision | Vascular Avoidance Routing AI**
+**3. ImplantVision | Vascular Avoidance Routing AI**
 *Tech Stack: `Python`, `C++`, `PyTorch 3D`, `OpenCV`, `ROS2`*
 Developed a computer vision and 3D path-planning algorithm intended for automated robotic BCI insertion. Analyzes volumetric fMRI and OCT vascular maps in real-time to generate micro-thread insertion trajectories.
 
-**4. ACNN-Neuromorphic GraphRAG | Spiking Connectome Emulator**
+**4. Neuromorphic GraphRAG | Spiking Connectome Emulator**
 *Tech Stack: `NEST Simulator`, `Nengo`, `Neo4j`, `LangGraph`, `Python`*
-Built an in silico emulation environment combining Spiking Neural Networks (SNNs) with GraphRAG. Maps massive functional connectome datasets (e.g., FlyEM, Allen Brain Atlas) into Neo4j to simulate synaptic routing.
+Built an *in silico* emulation environment combining Spiking Neural Networks (SNNs) with GraphRAG. Maps massive functional connectome datasets (e.g., FlyEM, Allen Brain Atlas) into Neo4j to simulate synaptic routing.
 
-**5. ACNN-TelemetryCore | High-Throughput ECoG/EEG Distributed Pipeline**
+**5. TelemetryCore | High-Throughput ECoG/EEG Distributed Pipeline**
 *Tech Stack: `Apache Kafka`, `PostgreSQL`, `MNE-Python`, `Docker`, `HL7 FHIR`*
 Engineered a distributed, high-throughput ETL architecture to ingest, denoise, and standardize continuous multi-terabyte neural time-series data streams across distributed BCI clinical trials.
 
-**6. ACNN-Drosophila-SNN | Hardware-Accelerated Neuromorphic Connectome Emulation** *Tech Stack: `neuprint-python`, `Brian 2`, `CUDA`, `Neo4j`, `SpiNNaker/Loihi Emulation`, `Lean 4`*
+**6. Drosophila-SNN | Hardware-Accelerated Neuromorphic Connectome Emulation**
+*Tech Stack: `neuprint-python`, `Brian 2`, `CUDA`, `Neo4j`, `SpiNNaker/Loihi Emulation`, `Lean 4`*
 Engineered a GPU-accelerated *in silico* emulation pipeline for the adult Drosophila melanogaster connectome (138,000+ neurons). Reconstructed full sensori-motor pathways from the Janelia hemibrain database into a directed multi-graph (Neo4j). Achieved real-time execution of Spiking Neural Networks (SNNs) with sub-millisecond synaptic latency. Integrated Lean 4 to formally verify routing topologies, providing a deterministic neuromorphic sandbox for testing closed-loop BCI protocols prior to mammalian deployment.
 
-**7. ACNN Clinical Orchestrator | FHIR-Native GraphRAG Middleware**
+**7. Clinical Orchestrator | FHIR-Native GraphRAG Middleware**
 *Tech Stack: `FastAPI`, `LangGraph`, `Qdrant`, `Docker`, `HL7 FHIR`*
 Architected an on-premise, multi-agent integration middleware designed to eliminate medical data silos in neurology clinics. Unifies disjointed diagnostic outputs into a secure Patient Knowledge Graph. Fully PDPA/HIPAA compliant, utilizing local LLM inference to guarantee data privacy.
 
@@ -94,9 +90,7 @@ Architected a high-throughput data engineering pipeline to clean, validate, and 
 > *"Solve intelligence, and then use that to solve everything else."*
 
 <div align="center">
-
 [![Email](https://img.shields.io/badge/Email-002B5B?style=for-the-badge&logo=gmail&logoColor=white)](mailto:твоя_почта@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-002B5B?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/твоя_ссылка/)
 [![ORCID](https://img.shields.io/badge/ORCID-002B5B?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/my-orcid?orcid=0009-0007-2913-5960)
-
 </div>
