@@ -5,7 +5,7 @@ My research and engineering efforts are divided into two highly specialized deep
 ---
 
 <div align="center">
-<img width="1024" height="352" alt="photo_5850515798651244623_y" src="https://github.com/user-attachments/assets/54b7c7b8-82bb-45b3-b57c-bf1bee01cd54" />
+<img width="1024" height="352" alt="photo_5850515798651244623_y" src="https://github.com/user-attachments/assets/54b7c7b8-82bb-45b3-b57c-bf1bee01cd54" /></div>
 
 
 ### Polyphoros | AI-Native Biotech & Drug Discovery
