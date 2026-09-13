@@ -13,7 +13,6 @@ To process massive biomedical datasets and orchestrate autonomous research secur
 * **Agentic Orchestration:** `LangGraph` (Cyclic workflows), `LangChain`, `Model Context Protocol (MCP)`.
 * **Knowledge Graphs & RAG:** `Neo4j` (Graph Databases), `Qdrant` (Hybrid Search), `ChromaDB`, Semantic Chunking.
 * **Formal Verification:** `Lean 4` (Theorem proving for logic verification).
-* **Neuro-Telemetry & Signals:** `LSL (Lab Streaming Layer)`, `MNE-Python`, `SpikeInterface`, `NEST Simulator`.
 * **Backend, MLOps & Data:** `Python 3 (OOP/Asyncio)`, `PostgreSQL`, `FastAPI`, `Docker`, `Prometheus + Grafana`.
 
 ### 📘 Future Learning Objectives
