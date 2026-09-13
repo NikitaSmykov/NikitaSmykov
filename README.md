@@ -6,7 +6,7 @@ My core engineering philosophy centers on building *Zero-Hallucination AI*. I br
 
 ---
 
-### 🛠 Core Engineering Stack
+###  Core Engineering Stack
 To process massive biomedical datasets and orchestrate autonomous research securely, I utilize a high-throughput, locally deployable stack:
 
 * **Applied AI & Local Inference:** `PyTorch`, `Hugging Face Transformers`, `vLLM` (High-throughput serving), `Ollama - Kimi` (Local Kimi K3 - Llama-3/Qwen), `BitsAndBytes`.
