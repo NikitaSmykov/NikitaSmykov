@@ -1,8 +1,6 @@
 ### Applied AI Engineer & Computational Researcher
 
-I am an Applied AI Engineer specializing in neuroinformatics, AI-native biotechnology, and distributed systems. Currently, I am the founder of Polyphoros, where I lead the development of the Q.E.D. Engine—a deterministic *in silico* drug discovery pipeline. 
-
-My core engineering philosophy centers on building *Zero-Hallucination AI*. I bridge localized LLMs, large-scale knowledge graphs, and formal mathematical verification (Lean 4) to eliminate probabilistic errors in critical systems.
+I am an Applied AI Engineer specializing in neuroinformatics, AI-native biotechnology, and distributed systems. My core engineering philosophy centers on building *Zero-Hallucination AI*. I bridge localized LLMs, large-scale knowledge graphs, and formal mathematical verification (Lean 4) to eliminate probabilistic errors in critical systems.
 
 ---
 
