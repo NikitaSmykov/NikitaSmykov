@@ -1,25 +1,37 @@
-### Applied AI Engineer & Computational Researcher
+### Applied AI Engineer & исследователь в области синтетических когнитивных архитектур
 
-I am an Applied AI Engineer specializing in neuroinformatics. My core engineering philosophy centers on building *Zero-Hallucination AI*.
+## Исследовательская миссия
 
----
+Моя работа посвящена проектированию когнитивных архитектур нового поколения и преодолению структурных ограничений современных больших языковых моделей (LLM). Я рассматриваю галлюцинации не как допустимую погрешность генеративных систем, а как архитектурный дефект, подлежащий устранению на уровне конструкции модели. Инженерная программа строится вокруг **Zero-Hallucination-архитектур**: систем, в которых выводы воспроизводимы, а критически важные утверждения подлежат формальной верификации. Отдельное направление — проблемы глубоких трансформерных сетей: деградация внимания по глубине и разбавление скрытых состояний при PreNorm-нормализации (PreNorm dilution). Эти вопросы находятся в одном ряду с задачами, решаемыми в работах по архитектуре Attention Residuals.
 
-###  Core Engineering Stack
-To process massive biomedical datasets and orchestrate autonomous research securely, I utilize a high-throughput, locally deployable stack:
+Как независимый исследователь я изучаю **биомиметические вычислительные модели**, способные к непрерывному обучению (continual learning) без катастрофического забывания. Конечная цель — энергоэффективные архитектуры, воспроизводящие механизмы системной консолидации памяти гиппокампа, в которых новый опыт структурно изменяет топологию сети, а не сводится к кэшированию во внешних векторных хранилищах.
 
-* **Applied AI & Local Inference:** `PyTorch`, `Hugging Face Transformers`, `vLLM` (High-throughput serving), `Ollama - Kimi` (Local Kimi K3 - Llama-3/Qwen), `BitsAndBytes`.
-* **Agentic Orchestration:** `LangGraph` (Cyclic workflows), `LangChain`, `Model Context Protocol (MCP)`.
-* **Knowledge Graphs & RAG:** `Neo4j` (Graph Databases), `Qdrant` (Hybrid Search), `ChromaDB`, Semantic Chunking.
-* **Formal Verification:** `Lean 4` (Theorem proving for logic verification).
-* **Backend, MLOps & Data:** `Python 3 (OOP/Asyncio)`, `PostgreSQL`, `FastAPI`, `Docker`, `Prometheus + Grafana`.
+## Ключевые исследовательские направления
 
-### Future Learning Objectives
-Technologies and systems I plan to explore and master in the future:
+- **Непрерывное обучение и пластичность:** методы борьбы с катастрофическим забыванием (EWC, replay-механизмы, модульные и разреженные архитектуры), теория комплементарных обучающихся систем (Complementary Learning Systems), хеббовская пластичность.
+- **Нейросимволический ИИ:** гибридные системы, объединяющие статистические модели с символическим выводом, онтологиями и логическим программированием.
+- **Надёжность и верифицируемость выводов:** ограниченная (constrained) генерация, атрибуция источников, оценка неопределённости (uncertainty quantification), калибровка и conformal prediction.
+- **Интерпретируемость:** механистическая интерпретируемость трансформеров, анализ динамики остаточного потока (residual stream) и распространения скрытых состояний по глубине.
+- **Агентные системы и модели мира:** Active Inference, предиктивные модели среды, динамическая модуляция гиперпараметров агентов как вычислительный аналог нейромодуляции.
 
-*   **Systems & Bare-Metal:** `Rust`, `Modern C++ (17/20)`, `Embedded C`.
-*   **High-Performance & Neuromorphic Computing:** `CUDA`, `FPGA / Verilog`, `Lava (Intel Loihi)`, Hardware-accelerated SNNs.
-*   **Signal Processing & Cybernetics:** Digital Signal Processing (DSP), `SpikeInterface`, `Kalman Filters`, Optimal Control Theory.
-*   **Neural Security:** `Fully Homomorphic Encryption (FHE)` for secure BCI telemetry.
+## Технологический стек
+
+| Область | Инструменты и методы |
+|---|---|
+| **Когнитивные архитектуры и представление знаний** | OpenCog, AtomSpace (гиперграфовое представление знаний), онтологии и графы знаний, Datalog / Prolog |
+| **Модели мира и агентные системы** | Active Inference, LangGraph, Model Context Protocol (MCP), мультиагентная оркестрация |
+| **Формальная верификация** | Lean 4, Coq, SMT-решатели (Z3); формальные границы безопасности и детерминированная логика |
+| **Память и retrieval** | Neo4j, Qdrant, ChromaDB; семантический чанкинг, моделирующий консолидацию эпизодической памяти в семантическую; гибридный (графовый + векторный) поиск |
+| **Глубокое обучение** | PyTorch, Hugging Face Transformers, PEFT/LoRA, Attention Residuals, модели нейрорегуляции |
+| **Инференс и оптимизация** | vLLM, llama.cpp, квантование (BitsAndBytes, AWQ, GGUF), локальное развёртывание Llama-3 / Qwen / Kimi |
+| **Backend и инфраструктура** | Python 3 (asyncio), FastAPI, PostgreSQL, Docker |
+| **Исследовательские практики** | воспроизводимые эксперименты (Weights & Biases / MLflow), версионирование данных и конфигураций, бенчмарки на фактологичность и устойчивость |
+
+## Принципы
+
+1. Воспроизводимость и измеримость результатов.
+2. Формальные гарантии там, где это возможно; эмпирическая оценка там, где это необходимо.
+3. Архитектурные решения вместо «заплаток» над симптомами.
 ---
 
 > *"Solve intelligence, and then use that to solve everything else."*
