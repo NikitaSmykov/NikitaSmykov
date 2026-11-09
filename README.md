@@ -20,7 +20,7 @@ As an independent researcher, I study **biomimetic computational models** capabl
 
 ### Depth-wise Information Flow in Deep Transformers
 
-I work on the problem class addressed by **Attention Residuals** (Kimi Team, 2026): how information and gradients are aggregated across the depth of a transformer.
+I work on the problem class addressed by **Attention Residuals**: how information and gradients are aggregated across the depth of a transformer.
 
 **The problem.** Standard residual connections with PreNorm accumulate all layer outputs with fixed unit weights. Hidden-state magnitude then grows as O(L) with depth, so each layer's relative contribution is progressively diluted (*PreNorm dilution*): early-layer information is buried and cannot be retrieved selectively, and deeper layers are forced to learn ever-larger outputs to stay influential.
 
