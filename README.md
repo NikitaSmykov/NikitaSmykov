@@ -1,93 +1,137 @@
-### Applied AI Engineer & исследователь в области синтетических когнитивных архитектур
+# Applied AI Engineer & Researcher in Synthetic Cognitive Architectures
 
-## Исследовательская миссия
+> Building reliable, verifiable and energy-efficient AI: from cognitive architectures and continual learning to production systems for business and medicine.
 
-Моя работа посвящена проектированию когнитивных архитектур нового поколения и преодолению структурных ограничений современных больших языковых моделей (LLM). Я рассматриваю галлюцинации не как допустимую погрешность генеративных систем, а как архитектурный дефект, подлежащий устранению на уровне конструкции модели. Инженерная программа строится вокруг **Zero-Hallucination-архитектур**: систем, в которых выводы воспроизводимы, а критически важные утверждения подлежат формальной верификации. Отдельное направление — проблемы глубоких трансформерных сетей: деградация внимания по глубине и разбавление скрытых состояний при PreNorm-нормализации (PreNorm dilution). Эти вопросы находятся в одном ряду с задачами, решаемыми в работах по архитектуре Attention Residuals.
+## Research Mission
 
-Как независимый исследователь я изучаю **биомиметические вычислительные модели**, способные к непрерывному обучению (continual learning) без катастрофического забывания. Конечная цель — энергоэффективные архитектуры, воспроизводящие механизмы системной консолидации памяти гиппокампа, в которых новый опыт структурно изменяет топологию сети, а не сводится к кэшированию во внешних векторных хранилищах.
+My work focuses on designing next-generation cognitive architectures and overcoming the structural limitations of current large language models (LLMs). I regard hallucinations not as an acceptable error margin of generative systems, but as an architectural defect that must be eliminated at the level of model design. My engineering program is built around **Zero-Hallucination architectures**: systems whose outputs are reproducible and whose safety-critical claims are subject to formal verification.
 
-## Ключевые исследовательские направления
+A separate line of work concerns the problems of deep transformer networks: attention degradation with depth and the dilution of hidden states under PreNorm normalization (PreNorm dilution). These problems belong to the same family as those addressed in the Attention Residuals line of work ([paper link]).
 
-- **Непрерывное обучение и пластичность:** методы борьбы с катастрофическим забыванием (EWC, replay-механизмы, модульные и разреженные архитектуры), теория комплементарных обучающихся систем (Complementary Learning Systems), хеббовская пластичность.
-- **Нейросимволический ИИ:** гибридные системы, объединяющие статистические модели с символическим выводом, онтологиями и логическим программированием.
-- **Надёжность и верифицируемость выводов:** ограниченная (constrained) генерация, атрибуция источников, оценка неопределённости (uncertainty quantification), калибровка и conformal prediction.
-- **Интерпретируемость:** механистическая интерпретируемость трансформеров, анализ динамики остаточного потока (residual stream) и распространения скрытых состояний по глубине.
-- **Агентные системы и модели мира:** Active Inference, предиктивные модели среды, динамическая модуляция гиперпараметров агентов как вычислительный аналог нейромодуляции.
+As an independent researcher, I study **biomimetic computational models** capable of continual learning without catastrophic forgetting. The ultimate goal is energy-efficient architectures that reproduce the mechanisms of hippocampal systems memory consolidation, in which new experience structurally reshapes the network topology instead of being merely cached in external vector stores.
 
-Мне крайне интересно исследовать возможности ИИ в медицине:   десь цена ошибки максимальна, поэтому направление естественно продолжает мою программу по надёжным и верифицируемым архитектурам.
+## Key Research Directions
 
-- **Клиническая поддержка принятия решений:** системы, опирающиеся на проверяемые источники (клинические рекомендации, научная литература) с обязательной атрибуцией и отказом от ответа при недостатке данных.
-- **Медицинский RAG и графы знаний:** интеграция биомедицинских онтологий (SNOMED CT, ICD, MeSH, UMLS) с графовыми и векторными хранилищами для точного и объяснимого поиска.
-- **Обработка клинических текстов:** извлечение сущностей и связей из выписок и протоколов, структурирование неформатированных записей, деидентификация персональных данных.
-- **Надёжность и безопасность:** оценка неопределённости, калибровка, оценка устойчивости к галлюцинациям на медицинских бенчмарках, человек в контуре для всех клинически значимых решений.
-- **Приватность и регуляторика:** локальное и изолированное развёртывание моделей, требования HIPAA и GDPR, подходы к валидации программного обеспечения как медицинского изделия (SaMD).
-- **Мультимодальные данные и непрерывное обучение:** адаптация моделей к новым клиническим данным без катастрофического забывания.
+- **Continual learning and plasticity:** mitigating catastrophic forgetting (EWC, replay mechanisms, modular and sparse architectures), Complementary Learning Systems theory, Hebbian plasticity.
+- **Neuro-symbolic AI:** hybrid systems combining statistical models with symbolic reasoning, ontologies and logic programming.
+- **Reliability and verifiability of outputs:** constrained generation, source attribution, uncertainty quantification, calibration and conformal prediction.
+- **Interpretability:** mechanistic interpretability of transformers, analysis of residual stream dynamics and hidden-state propagation across depth.
+- **Agent systems and world models:** Active Inference, predictive models of the environment, dynamic modulation of agent hyperparameters as a computational analogue of neuromodulation.
 
+## AI in Medicine (Research Direction)
 
-## Прикладные решения для бизнеса
+I study the potential and the limits of AI in medicine. The cost of error here is maximal, so this direction naturally extends my program on reliable and verifiable architectures.
 
-Помимо исследовательской работы я проектирую и внедряю промышленные AI-системы, где требования к надёжности, изоляции данных и предсказуемости поведения важнее скорости прототипирования.
+- **Clinical decision support:** systems grounded in verifiable sources (clinical guidelines, scientific literature), with mandatory attribution and refusal to answer when evidence is insufficient.
+- **Medical RAG and knowledge graphs:** integration of biomedical ontologies (SNOMED CT, ICD, MeSH, UMLS) with graph and vector stores for precise and explainable retrieval.
+- **Clinical text processing:** entity and relation extraction from discharge summaries and protocols, structuring of unstructured records, de-identification of personal data.
+- **Reliability and safety:** uncertainty estimation, calibration, evaluation of hallucination robustness on medical benchmarks, human-in-the-loop for all clinically significant decisions.
+- **Privacy and regulation:** local and isolated model deployment, HIPAA and GDPR requirements, approaches to validating software as a medical device (SaMD).
+- **Multimodal data and continual learning:** adapting models to new clinical data without catastrophic forgetting.
 
-### 1. Архитектура B2B SaaS и изоляция данных
-- Проектирование **multi-tenant**-платформ с жёсткой изоляцией данных между клиентами: Row-Level Security в PostgreSQL, схемы и базы на арендатора, tenant-aware контекст в каждом слое приложения.
-- Изоляция на уровне AI-компонентов: раздельные коллекции и пространства имён в векторных хранилищах (Qdrant, ChromaDB), фильтрация retrieval по tenant ID, защита от утечек данных между арендаторами через промпты и контекст.
-- Ролевая модель доступа (RBAC/ABAC), аудит-логи, управление секретами, соответствие требованиям защиты персональных данных (GDPR, 152-ФЗ).
+> Research materials are not medical advice and are not intended for clinical use.
 
-### 2. Паттерны надёжности распределённых систем
-- **Transactional Outbox** (PostgreSQL + Redis/Celery) для гарантированной доставки событий без потери и дублирования.
-- **Идемпотентность API:** idempotency keys, безопасные повторы запросов, дедупликация обработчиков.
-- **Fail-closed-логика:** при сбое проверок безопасности или верификации система отказывает в операции, а не пропускает её.
-- Retry с экспоненциальным backoff, circuit breaker, dead-letter-очереди, rate limiting, graceful degradation.
-- Saga-паттерн для длинных бизнес-транзакций, асинхронная обработка (asyncio, Celery) под нагрузкой.
+## Applied Solutions for Business
 
-### 3. Внедрение ИИ в бизнес-процессы
-- **Предпроектный анализ:** аудит процессов, выявление задач, где ИИ даёт измеримый эффект, оценка ROI, TCO и рисков, выбор между облачным API и локальным развёртыванием.
-- **Корпоративные RAG-системы:** поиск и ответы по внутренним базам знаний, документам и регламентам с обязательной атрибуцией источников и отказом отвечать при недостатке подтверждающих данных.
-- **Агентная автоматизация:** оркестрация рабочих процессов (LangGraph, MCP), интеграция с CRM, ERP, тикет-системами и внутренними API, human-in-the-loop для критичных решений.
-- **Обработка документов:** извлечение структурированных данных (договоры, счета, заявки), классификация и маршрутизация обращений, суммаризация.
-- **Защитные контуры (guardrails):** валидация структурированного вывода (JSON Schema, Pydantic), ограниченная генерация, фильтрация PII, защита от prompt injection, проверка вывода перед выполнением действий.
+Alongside research, I design and deploy production AI systems where reliability, data isolation and predictable behavior matter more than prototyping speed.
 
-### 4. Дообучение и адаптация моделей
-- Дообучение открытых моделей (Llama-3, Qwen) под предметную область заказчика: SFT, параметро-эффективные методы (LoRA/QLoRA, PEFT), выравнивание предпочтений (DPO).
-- Подготовка и курирование датасетов: очистка, дедупликация, разметка, синтетическая генерация данных, контроль утечек между обучающей и тестовой выборками.
-- Дистилляция крупных моделей в компактные для снижения стоимости и задержек инференса.
-- Выбор стратегии адаптации: prompt engineering, RAG или fine-tuning, исходя из задачи, объёма данных и бюджета.
+### 1. B2B SaaS Architecture and Data Isolation
+- Design of **multi-tenant** platforms with strict tenant isolation: Row-Level Security in PostgreSQL, schema- or database-per-tenant, tenant-aware context at every application layer.
+- Isolation at the AI-component level: separate collections and namespaces in vector stores (Qdrant, ChromaDB), tenant-ID filtering in retrieval, protection against cross-tenant leakage through prompts and context.
+- Role- and attribute-based access control (RBAC/ABAC), audit logs, secrets management, compliance with personal-data protection requirements (GDPR, Russian Federal Law 152-FZ).
 
-### 5. Эксплуатация AI-систем (LLMOps)
-- Оценка качества: собственные evaluation-наборы, регрессионное тестирование промптов и моделей, метрики фактологичности и полноты ответа.
-- Наблюдаемость: трассировка запросов, мониторинг стоимости, задержек и дрейфа качества, логирование с учётом приватности.
-- Оптимизация затрат и производительности: маршрутизация между моделями, кэширование, квантование (AWQ, GGUF), vLLM-инференс, контроль токенного бюджета.
-- Развёртывание: Docker, CI/CD, локальные и приватные контуры для клиентов с жёсткими требованиями к безопасности данных.
+### 2. Reliability Patterns for Distributed Systems
+- **Transactional Outbox** (PostgreSQL + Redis/Celery) for guaranteed event delivery without loss or duplication.
+- **API idempotency:** idempotency keys, safe request retries, handler deduplication.
+- **Fail-closed logic:** if a security or verification check fails or its service is unavailable, the system rejects the operation instead of letting it through.
+- Exponential backoff retries, circuit breakers, dead-letter queues, rate limiting, graceful degradation.
+- Saga pattern for long-running business transactions; asynchronous processing (asyncio, Celery) under load.
 
-## Технологический стек
+### 3. Integrating AI into Business Processes
+- **Pre-project analysis:** process audit, identifying tasks with measurable AI impact, ROI/TCO and risk assessment, choosing between cloud APIs and local deployment.
+- **Enterprise RAG systems:** search and answering over internal knowledge bases, documents and regulations, with mandatory source attribution and refusal to answer when supporting evidence is lacking.
+- **Agentic automation:** workflow orchestration (LangGraph, MCP), integration with CRM, ERP, ticketing systems and internal APIs, human-in-the-loop for critical decisions.
+- **Document processing:** structured data extraction (contracts, invoices, requests), classification and routing of inquiries, summarization.
+- **Guardrails:** structured-output validation (JSON Schema, Pydantic), constrained generation, PII filtering, prompt-injection defenses, output verification before executing actions.
 
-| Область | Инструменты и методы |
+### 4. Model Fine-Tuning and Adaptation
+- Fine-tuning open models (Llama-3, Qwen) for a client's domain: SFT, parameter-efficient methods (LoRA/QLoRA, PEFT), preference alignment (DPO).
+- Dataset preparation and curation: cleaning, deduplication, annotation, synthetic data generation, train/test leakage control.
+- Distillation of large models into compact ones to reduce inference cost and latency.
+- Choosing an adaptation strategy (prompt engineering, RAG or fine-tuning) based on the task, data volume and budget.
+
+### 5. Operating AI Systems (LLMOps)
+- **Quality evaluation:** custom evaluation sets, regression testing of prompts and models, factuality and completeness metrics.
+- **Observability:** request tracing, monitoring of cost, latency and quality drift, privacy-aware logging.
+- **Cost and performance optimization:** model routing, caching, quantization (AWQ, GGUF), vLLM inference, token-budget control.
+- **Deployment:** Docker, CI/CD, local and private environments for clients with strict data-security requirements.
+
+## AI in Software Development
+
+I study and apply agentic systems for programming, both as a way to raise engineering productivity and as a research subject in its own right: where autonomous agents are reliable and where human oversight is required.
+
+- **Agentic development tools:** hands-on work with Claude Code, OpenCode, OpenClaw and similar CLI/IDE agents; comparative analysis of their capabilities, limitations and failure modes.
+- **Multi-agent coding systems:** role separation (planner, implementer, reviewer, tester), parallel subagents on independent tasks, orchestration via LangGraph and MCP.
+- **Context engineering:** designing instructions, specifications and repository structure that let an agent work reliably; context-window management, cross-session memory, external tools via MCP servers.
+- **Quality control of agent-written code:** automated tests as acceptance criteria, static analysis, typing, property-based testing, diff review, isolated environments (Docker, sandboxes) and least-privilege principles for agents.
+- **Measuring effectiveness:** evaluating agents on realistic tasks (in the spirit of SWE-bench), tracking quality, cost and the share of human corrections, analyzing typical failures: hallucinated APIs, incomplete refactorings, silent regressions.
+- **Security:** defense against prompt injection via dependencies and documentation, command-execution control, auditing of agent actions.
+
+## Looking Ahead: Neuromorphic Systems and Brain–AI Interfaces
+
+My long-term goal is an energy-efficient, truly autonomous synthetic intelligence. Today's LLMs are trained and served on clusters at megawatt scale, whereas the biological brain solves general-intelligence tasks on the order of 20 W. Closing this gap defines the next stage of my research: from algorithms to the computational substrate (wetware and neuromorphic platforms).
+
+### Neural Interfaces and Brain–AI Interaction
+- Study of brain–computer interfaces (BCI): invasive and non-invasive recording methods (EEG, ECoG, microelectrode arrays), decoding of neural signals, closed-loop systems.
+- Neurophysiological signal processing and machine learning on it: artifact removal, feature extraction, adaptive decoders.
+- Tools: MNE-Python, BrainFlow, OpenBCI, open neurophysiological datasets.
+- Neuroethics and safety: neural-data privacy, informed consent, limits of acceptable intervention ("neurorights").
+
+### Neuromorphic Computing and Hardware Acceleration
+- **Spiking Neural Networks (SNN):** event-driven sparse computation; training with surrogate gradients and local plasticity rules (STDP).
+- **Platforms and frameworks:** Intel Loihi / Lava, SpiNNaker, BrainScaleS, snnTorch, Nengo, Brian2.
+- **Accelerators and HPC:** CUDA, FPGA, in-memory computing, memristive architectures.
+- **Efficiency metrics:** energy per operation and per inference, activation sparsity, comparison with dense transformer models on comparable tasks.
+
+### Systems Programming
+- **Rust and modern C++ (17/20)** for high-performance computing, low-level inference optimization and memory-safe code without the overhead of interpreted languages.
+- Integration with the Python ecosystem: PyO3, pybind11, custom CUDA kernels, Triton.
+
+### Cognitive Cybernetics
+- **Predictive coding** and the free-energy principle as a computational basis for learning beyond classical backpropagation.
+- **Optimal control theory:** LQR, model predictive control, links to reinforcement learning and Active Inference.
+- Synthesis: hierarchical predictive world models implemented on a neuromorphic substrate.
+
+### Planned Practical Work
+| Direction | Deliverable |
 |---|---|
-| **Когнитивные архитектуры и представление знаний** | OpenCog, AtomSpace (гиперграфовое представление знаний), онтологии и графы знаний, Datalog / Prolog |
-| **Модели мира и агентные системы** | Active Inference, LangGraph, Model Context Protocol (MCP), мультиагентная оркестрация |
-| **Формальная верификация** | Lean 4, Coq, SMT-решатели (Z3); формальные границы безопасности и детерминированная логика |
-| **Память и retrieval** | Neo4j, Qdrant, ChromaDB; семантический чанкинг, моделирующий консолидацию эпизодической памяти в семантическую; гибридный (графовый + векторный) поиск |
-| **Глубокое обучение** | PyTorch, Hugging Face Transformers, PEFT/LoRA, Attention Residuals, модели нейрорегуляции |
-| **Инференс и оптимизация** | vLLM, llama.cpp, квантование (BitsAndBytes, AWQ, GGUF), локальное развёртывание Llama-3 / Qwen / Kimi |
-| **Backend и инфраструктура** | Python 3 (asyncio), FastAPI, PostgreSQL, Docker |
-| **Исследовательские практики** | воспроизводимые эксперименты (Weights & Biases / MLflow), версионирование данных и конфигураций, бенчмарки на фактологичность и устойчивость |
+| SNN | Spiking network implemented and trained with snnTorch; energy/accuracy comparison against an ANN counterpart |
+| Predictive coding | Reproduction of a hierarchical predictive network in PyTorch; published code and report |
+| BCI | Motor-intent decoder on open EEG data (MNE-Python); reproducible pipeline |
+| Rust / C++ | Custom high-performance kernel (e.g., quantized matrix multiplication) with a benchmark against PyTorch |
 
-## ИИ в разработке программного обеспечения
-Исследую и применяю агентные системы для программирования как инструмент повышения инженерной производительности и как самостоятельный объект изучения: где автономные агенты надёжны, а где требуют контроля человека.
-- **Агентные средства разработки:** практическая работа с Claude Code, OpenCode, OpenClaw и аналогичными CLI/IDE-агентами; сравнительный анализ их возможностей, ограничений и режимов отказа.
-- **Мультиагентные системы для кодинга:** разделение ролей (планировщик, исполнитель, ревьюер, тестировщик), параллельная работа субагентов над независимыми задачами, оркестрация через LangGraph и MCP.
-- **Контекст-инжиниринг:** проектирование инструкций, спецификаций и структуры репозитория, на которых агент работает стабильно; управление контекстным окном, память между сессиями, подключение внешних инструментов через MCP-серверы.
-- **Контроль качества агентного кода:** автоматические тесты как критерий приёмки, статический анализ, типизация, property-based-тестирование, ревью диффов, изолированные окружения (Docker, sandbox) и принцип минимальных привилегий для агентов.
-- **Измерение эффективности:** оценка агентов на реалистичных задачах (в духе SWE-bench), метрики качества, стоимости и доли правок человеком, анализ типовых ошибок: галлюцинированные API, неполные рефакторинги, незаметные регрессии.
-- **Безопасность:** защита от prompt injection через зависимости и документацию, контроль выполнения команд, аудит действий агента.
+## Technology Stack
 
-## Принципы
+| Area | Tools and methods |
+|---|---|
+| **Cognitive architectures and knowledge representation** | OpenCog, AtomSpace (hypergraph knowledge representation), ontologies and knowledge graphs, Datalog / Prolog |
+| **World models and agent systems** | Active Inference, LangGraph, Model Context Protocol (MCP), multi-agent orchestration |
+| **Formal verification** | Lean 4, Coq, SMT solvers (Z3); formal safety bounds and deterministic logic |
+| **Memory and retrieval** | Neo4j, Qdrant, ChromaDB; semantic chunking modeled on consolidation of episodic into semantic memory; hybrid (graph + vector) retrieval |
+| **Deep learning** | PyTorch, Hugging Face Transformers, PEFT/LoRA, Attention Residuals, neuromodulation-inspired models |
+| **Inference and optimization** | vLLM, llama.cpp, quantization (BitsAndBytes, AWQ, GGUF), local deployment of Llama-3 / Qwen / Kimi |
+| **Neuromorphic and HPC** | CUDA, FPGA, SNN (snnTorch, Nengo, Brian2), Rust, C++17/20 |
+| **Cognitive cybernetics** | Predictive coding, optimal control theory |
+| **Backend and infrastructure** | Python 3 (asyncio), FastAPI, PostgreSQL, Redis, Celery, Docker |
+| **Research practices** | Reproducible experiments (Weights & Biases / MLflow), data and configuration versioning, factuality and robustness benchmarks |
 
-1. Воспроизводимость и измеримость результатов.
-2. Формальные гарантии там, где это возможно; эмпирическая оценка там, где это необходимо.
-3. Архитектурные решения вместо «заплаток» над симптомами.
+## Principles
+
+1. Reproducibility and measurability of results.
+2. Formal guarantees where possible; empirical evaluation where necessary.
+3. Architectural solutions instead of patches over symptoms.
+
 ---
-
 > *"Solve intelligence, and then use that to solve everything else."*
 
 <div align="center">
