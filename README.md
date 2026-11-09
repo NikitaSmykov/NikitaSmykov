@@ -77,15 +77,9 @@ I study and apply agentic systems for programming, both as a way to raise engine
 - **Measuring effectiveness:** evaluating agents on realistic tasks (in the spirit of SWE-bench), tracking quality, cost and the share of human corrections, analyzing typical failures: hallucinated APIs, incomplete refactorings, silent regressions.
 - **Security:** defense against prompt injection via dependencies and documentation, command-execution control, auditing of agent actions.
 
-## Looking Ahead: Neuromorphic Systems and Brain–AI Interfaces
+## Looking Ahead: Neuromorphic Systems
 
-My long-term goal is an energy-efficient, truly autonomous synthetic intelligence. Today's LLMs are trained and served on clusters at megawatt scale, whereas the biological brain solves general-intelligence tasks on the order of 20 W. Closing this gap defines the next stage of my research: from algorithms to the computational substrate (wetware and neuromorphic platforms).
-
-### Neural Interfaces and Brain–AI Interaction
-- Study of brain–computer interfaces (BCI): invasive and non-invasive recording methods (EEG, ECoG, microelectrode arrays), decoding of neural signals, closed-loop systems.
-- Neurophysiological signal processing and machine learning on it: artifact removal, feature extraction, adaptive decoders.
-- Tools: MNE-Python, BrainFlow, OpenBCI, open neurophysiological datasets.
-- Neuroethics and safety: neural-data privacy, informed consent, limits of acceptable intervention ("neurorights").
+My long-term goal is an energy-efficient, truly autonomous synthetic intelligence. Today's LLMs are trained and served on clusters at megawatt scale, whereas the biological brain solves general-intelligence tasks on the order of 20 W. Closing this gap defines the next stage of my research: from algorithms to the computational substrate (neuromorphic platforms and hardware co-design).
 
 ### Neuromorphic Computing and Hardware Acceleration
 - **Spiking Neural Networks (SNN):** event-driven sparse computation; training with surrogate gradients and local plasticity rules (STDP).
@@ -107,7 +101,6 @@ My long-term goal is an energy-efficient, truly autonomous synthetic intelligenc
 |---|---|
 | SNN | Spiking network implemented and trained with snnTorch; energy/accuracy comparison against an ANN counterpart |
 | Predictive coding | Reproduction of a hierarchical predictive network in PyTorch; published code and report |
-| BCI | Motor-intent decoder on open EEG data (MNE-Python); reproducible pipeline |
 | Rust / C++ | Custom high-performance kernel (e.g., quantized matrix multiplication) with a benchmark against PyTorch |
 
 ## Technology Stack
