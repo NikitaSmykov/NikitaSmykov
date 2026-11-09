@@ -125,7 +125,7 @@ My long-term goal is an energy-efficient, truly autonomous synthetic intelligenc
 3. Architectural solutions instead of patches over symptoms.
 
 ---
-> *"Solve intelligence, and then use that to solve everything else."*
+> *"Solve intelligence, and then use that to solve everything else."* — Demis Hassabis.
 
 <div align="center">
   <a href="mailto:твоя_почта@gmail.com">
