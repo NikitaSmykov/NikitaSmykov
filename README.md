@@ -18,6 +18,22 @@ As an independent researcher, I study **biomimetic computational models** capabl
 - **Interpretability:** mechanistic interpretability of transformers, analysis of residual stream dynamics and hidden-state propagation across depth.
 - **Agent systems and world models:** Active Inference, predictive models of the environment, dynamic modulation of agent hyperparameters as a computational analogue of neuromodulation.
 
+### Depth-wise Information Flow in Deep Transformers
+
+I work on the problem class addressed by **Attention Residuals** (Kimi Team, 2026): how information and gradients are aggregated across the depth of a transformer.
+
+**The problem.** Standard residual connections with PreNorm accumulate all layer outputs with fixed unit weights. Hidden-state magnitude then grows as O(L) with depth, so each layer's relative contribution is progressively diluted (*PreNorm dilution*): early-layer information is buried and cannot be retrieved selectively, and deeper layers are forced to learn ever-larger outputs to stay influential.
+
+**The reference approach.** Attention Residuals replace fixed accumulation with softmax attention over preceding layer outputs, using one learned pseudo-query per layer. The block variant reduces memory and communication from O(Ld) to O(Nd) by attending over block-level summaries (about 8 blocks recover most of the gain). In the paper, this matches the loss of a baseline trained with 1.25× more compute, keeps output magnitudes bounded across depth, and distributes gradients more uniformly.
+
+**My focus:**
+- Analysis of hidden-state growth, gradient distribution and depth-wise attention patterns (including depth-wise attention sinks) in deep transformers.
+- Interaction of depth-wise aggregation with low-bit quantization (AWQ, GGUF): how bounded activation magnitudes affect quantization error and activation outliers.
+- Memory-efficient variants of depth-wise attention, including finer-grained blocking and linear-complexity alternatives.
+- Connections to continual learning: stability of selective cross-layer retrieval under sequential task adaptation.
+
+Reference: Kimi Team, *Attention Residuals*, arXiv:2603.15031 ([paper](https://arxiv.org/abs/2603.15031), [code](https://github.com/MoonshotAI/Attention-Residuals)).
+
 ## AI in Medicine (Research Direction)
 
 I study the potential and the limits of AI in medicine. The cost of error here is maximal, so this direction naturally extends my program on reliable and verifiable architectures.
@@ -85,6 +101,16 @@ My long-term goal is an energy-efficient, truly autonomous synthetic intelligenc
 - **Spiking Neural Networks (SNN):** event-driven sparse computation; training with surrogate gradients and local plasticity rules (STDP).
 - **Platforms and frameworks:** Intel Loihi / Lava, SpiNNaker, BrainScaleS, snnTorch, Nengo, Brian2.
 - **Accelerators and HPC:** CUDA, FPGA, in-memory computing, memristive architectures.
+### Compute-in-Memory and Physics-Based Computing
+
+I also study analog compute-in-memory (CIM) as a researcher: an artificial neural network can be embedded directly into the memory array, with the physics of the device itself performing part of the computation, instead of shuttling data between memory and processor as in the von Neumann architecture.
+
+**Case study: neural dynamical systems on phase-change memristors** (Peking University and Chinese Academy of Sciences, *Science*, 2026). A neural dynamical system (NDS) couples a neural network with a continuous-time differential-equation solver, and was demonstrated on cortical surface reconstruction.
+- Network weights are mapped to the multilevel conductance states of phase-change memory, so multiply-accumulate operations run inside the array.
+- Conductance drift, normally treated as a device defect, is harnessed as a physical implementation of the solver's adaptive step-size search.
+- Reported results: 2.12 ms latency per integration iteration at an error tolerance of 10⁻⁷; end-to-end reconstruction 50–478× faster than an NVIDIA A100 GPU; 3.8–36× faster and 12–25× lower power than prior NDS hardware.
+
+**Research interests:** turning device non-idealities (drift, noise, variability) into computational resources; hardware-aware training of neural ODEs; real-time modeling of physical manifolds; potential relevance for medical imaging and robotics.
 - **Efficiency metrics:** energy per operation and per inference, activation sparsity, comparison with dense transformer models on comparable tasks.
 
 ### Systems Programming
