@@ -144,11 +144,6 @@ I also study analog compute-in-memory (CIM) as a researcher: an artificial neura
 | **Backend and infrastructure** | Python 3 (asyncio), FastAPI, PostgreSQL, Redis, Celery, Docker |
 | **Research practices** | Reproducible experiments (Weights & Biases / MLflow), data and configuration versioning, factuality and robustness benchmarks |
 
-## Principles
-
-1. Reproducibility and measurability of results.
-2. Formal guarantees where possible; empirical evaluation where necessary.
-3. Architectural solutions instead of patches over symptoms.
 
 ---
 > *"Solve intelligence, and then use that to solve everything else."* — Demis Hassabis.
