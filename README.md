@@ -1,6 +1,3 @@
-<img width="736" height="414" alt="9060ac02054aec0e0e0fd88f9251e35c" src="https://github.com/user-attachments/assets/f36a1c08-53ce-479f-b716-98a5bfcb83e2" />
-
-
 # Applied AI Engineer & Researcher in Synthetic Cognitive Architectures
 
 > Building reliable, verifiable and energy-efficient AI: from cognitive architectures and continual learning to production systems for business and medicine.
