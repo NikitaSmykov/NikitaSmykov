@@ -10,11 +10,13 @@ A separate line of work concerns the problems of deep transformer networks: atte
 
 As an independent researcher, I study biomimetic computational models capable of continual learning without catastrophic forgetting. The ultimate goal is energy-efficient architectures that reproduce the mechanisms of hippocampal memory consolidation, in which new experiences structurally reshape the network topology instead of being merely cached in external vector stores.
 
-### Core Research Mission: Latent Space Voids
+#### Core Research Mission: Zero-Hallucination Architectures
 
-My central research problem is the **latent voids** of neural networks: regions of the representation space that training data never covered, where model behavior is undefined and an inhabited manifold gives way to statistical noise. I study how to resolve this at the architectural level—inside the weights themselves—rather than by extensively scaling data or relying solely on external "prostheses."
+My central research mission is the elimination of hallucinations at the architectural level, creating systems capable of deterministic, verifiable reasoning.
 
-**Working hypothesis:** External retrieval (RAG, vector databases) is a highly valuable engineering tool, and I actively use it in production systems. However, it routes queries *around* voids instead of removing them. A fundamental solution requires changing the mathematics of the latent space so that the feature space forms a continuous manifold with well-defined boundaries, allowing the model to detect when it has left it.
+Working hypothesis (Latent Space Voids): I hypothesize that the root cause of hallucinations lies in the latent voids of neural networks—regions of the representation space that training data never covered, where model behavior is undefined and an inhabited manifold gives way to statistical noise. I study how to resolve this inside the weights themselves, rather than by extensively scaling data or relying solely on external "prostheses."
+
+The role of retrieval: External retrieval (RAG, vector databases) is a highly valuable engineering tool, and I actively use it in production systems. However, it routes queries around voids instead of removing them. A fundamental solution requires changing the mathematics of the latent space so that the feature space forms a continuous manifold with well-defined boundaries, allowing the model to detect when it has left it.
 
 #### Research Directions
 *   **Computational topology of representations:** Applying persistent homology and related TDA (Topological Data Analysis) tools to activation point clouds to quantify connectivity, holes, and the coverage of learned manifolds across layers.
