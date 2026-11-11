@@ -121,6 +121,10 @@ I study and apply agentic systems for programming, both as a method to raise eng
 *   **Measuring effectiveness:** Evaluating agents on realistic tasks (e.g., SWE-bench paradigms), tracking quality, cost, and the share of human corrections, while analyzing typical failures (hallucinated APIs, incomplete refactorings, silent regressions).
 *   **Security:** Defense against prompt injection via dependencies and documentation, command-execution control, and rigorous auditing of agent actions.
 
+Research Focus: Overcoming Self-Reinforcing Hallucinations in Coding Agents
+
+Current agentic coding paradigms (e.g., RLCEF) rely on execution feedback (compilers) as the ultimate reward. I hypothesize this is structurally flawed for complex tasks (like Terminal-Bench 3.0): execution feedback is a post-mortem signal that arrives after the agent's internal representation of the user's intent has already drifted into a latent void. Using Mechanistic Interpretability (SAE, Activation Patching), I am investigating the Intent Subspace within transformer residual streams. My goal is to track the decay of intent projection during code generation and apply closed-loop representation-level regularization (e.g., steering vectors) to prevent intent drift before the first execution-affecting action occurs, moving beyond blind execution feedback toward true intent-grounded engineering.
+
 ---
 
 ## Looking Ahead: Neuromorphic Systems
