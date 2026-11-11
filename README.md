@@ -1,4 +1,4 @@
-# Applied AI Engineer & Researcher in Synthetic Cognitive Architectures
+# Applied AI Engineer & AI Researcher 
 
 Building reliable, verifiable, and energy-efficient AI: from cognitive architectures and continual learning to production systems for business and medicine.
 
