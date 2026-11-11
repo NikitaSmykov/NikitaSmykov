@@ -6,9 +6,34 @@
 
 My work focuses on designing next-generation cognitive architectures and overcoming the structural limitations of current large language models (LLMs). I regard hallucinations not as an acceptable error margin of generative systems, but as an architectural defect that must be eliminated at the level of model design. My engineering program is built around **Zero-Hallucination architectures**: systems whose outputs are reproducible and whose safety-critical claims are subject to formal verification.
 
-A separate line of work concerns the problems of deep transformer networks: attention degradation with depth and the dilution of hidden states under PreNorm normalization (PreNorm dilution). These problems belong to the same family as those addressed in the Attention Residuals line of work ([paper link]).
+A separate line of work concerns the problems of deep transformer networks: attention degradation with depth and the dilution of hidden states under PreNorm normalization (PreNorm dilution). These problems belong to the same family as those addressed in the Attention Residuals line of work ([arXiv:2603.15031](https://arxiv.org/abs/2603.15031)).
 
 As an independent researcher, I study **biomimetic computational models** capable of continual learning without catastrophic forgetting. The ultimate goal is energy-efficient architectures that reproduce the mechanisms of hippocampal systems memory consolidation, in which new experience structurally reshapes the network topology instead of being merely cached in external vector stores.
+
+## Core Research Mission: Latent Space Voids
+
+My central research problem is the **latent voids** of neural networks: regions of the representation space that training data never covered, where model behavior is undefined and an inhabited manifold gives way to statistical noise. I study how to resolve this at the architectural level, inside the weights themselves, rather than by extensively scaling data or by external "prostheses".
+
+**Working hypothesis.** External retrieval (RAG, vector databases) is a valuable engineering tool, and I use it in production systems. But it routes queries *around* voids instead of removing them. A fundamental solution requires changing the mathematics of the latent space so that the feature space forms a continuous manifold with well-defined boundaries, and so that the model can detect when it has left it.
+
+**Research directions**
+- **Computational topology of representations:** persistent homology and related TDA tools applied to activation point clouds, to quantify connectivity, holes and coverage of learned manifolds across layers.
+- **Rethinking attention and depth-wise flow:** architectural mechanisms that keep representations well-conditioned in deep networks, including Attention Residuals (see below) as a candidate remedy for depth-wise dilution.
+- **Mechanistic interpretability:** sparse autoencoders (SAE) and circuit discovery to untangle polysemantic neurons, map the boundaries of learned concepts, and locate regions where deceptive behavior (e.g., sleeper-agent backdoors) can hide, going beyond behavioral testing such as RLHF evaluation.
+- **Sleep-inspired consolidation:** wake–sleep cycles with synthetic "dreaming", following the Sleep framework (Behrouz et al., Google Research, 2026; [arXiv:2606.03979](https://arxiv.org/abs/2606.03979)). I explore extending this idea to deliberately target low-density regions between known concepts, so that new knowledge interpolates continuously instead of overwriting existing manifolds or scattering into empty space.
+- **Uncertainty at the boundary:** a model that can tell it is outside the learned manifold should stop generation or request data instead of producing statistical noise: a path to Zero-Hallucination behavior.
+
+**Why it matters**
+- **Reliability:** calibrated abstention in uncovered regions instead of confident hallucination.
+- **Safety:** mapping latent space at the level of internal computations, as a complement to behavioral red-teaming against jailbreaks and backdoors.
+- **Out-of-distribution generalization:** investigating whether continuity and coverage of the latent space enables principled extrapolation.
+- **Data and energy efficiency:** testing whether architectural void-reduction allows strong models to be trained on smaller, curated datasets, which in turn fits energy-efficient hardware such as compute-in-memory.
+- **Engineering-grade AI:** in physical design, a failure inside a void is not an amusing hallucination but a structural defect. I use physics-grounded evaluation, where solvers (CalculiX, Gmsh) grade outputs pass/fail, as in [RWE-Bench](https://xplore.ai/rwe-bench), as the standard for trustworthy AI in engineering.
+
+**How I plan to measure it**
+- Define a void operationally (e.g., low local density, large nearest-neighbor distance, uncovered SAE feature regions, topological holes in persistent-homology diagrams).
+- Compare void statistics across layers and architectures (standard residuals vs. Attention Residuals).
+- Test whether void statistics predict hallucination and failure under distribution shift.
 
 ## Key Research Directions
 
@@ -18,7 +43,7 @@ As an independent researcher, I study **biomimetic computational models** capabl
 - **Interpretability:** mechanistic interpretability of transformers, analysis of residual stream dynamics and hidden-state propagation across depth.
 - **Agent systems and world models:** Active Inference, predictive models of the environment, dynamic modulation of agent hyperparameters as a computational analogue of neuromodulation.
 
-### Depth-wise Information Flow in Deep Transformers
+## Depth-wise Information Flow in Deep Transformers
 
 I work on the problem class addressed by **Attention Residuals**: how information and gradients are aggregated across the depth of a transformer.
 
@@ -101,6 +126,8 @@ My long-term goal is an energy-efficient, truly autonomous synthetic intelligenc
 - **Spiking Neural Networks (SNN):** event-driven sparse computation; training with surrogate gradients and local plasticity rules (STDP).
 - **Platforms and frameworks:** Intel Loihi / Lava, SpiNNaker, BrainScaleS, snnTorch, Nengo, Brian2.
 - **Accelerators and HPC:** CUDA, FPGA, in-memory computing, memristive architectures.
+- **Efficiency metrics:** energy per operation and per inference, activation sparsity, comparison with dense transformer models on comparable tasks.
+
 ### Compute-in-Memory and Physics-Based Computing
 
 I also study analog compute-in-memory (CIM) as a researcher: an artificial neural network can be embedded directly into the memory array, with the physics of the device itself performing part of the computation, instead of shuttling data between memory and processor as in the von Neumann architecture.
@@ -111,7 +138,6 @@ I also study analog compute-in-memory (CIM) as a researcher: an artificial neura
 - Reported results: 2.12 ms latency per integration iteration at an error tolerance of 10⁻⁷; end-to-end reconstruction 50–478× faster than an NVIDIA A100 GPU; 3.8–36× faster and 12–25× lower power than prior NDS hardware.
 
 **Research interests:** turning device non-idealities (drift, noise, variability) into computational resources; hardware-aware training of neural ODEs; real-time modeling of physical manifolds; potential relevance for medical imaging and robotics.
-- **Efficiency metrics:** energy per operation and per inference, activation sparsity, comparison with dense transformer models on comparable tasks.
 
 ### Systems Programming
 - **Rust and modern C++ (17/20)** for high-performance computing, low-level inference optimization and memory-safe code without the overhead of interpreted languages.
@@ -125,6 +151,7 @@ I also study analog compute-in-memory (CIM) as a researcher: an artificial neura
 ### Planned Practical Work
 | Direction | Deliverable |
 |---|---|
+| Latent voids | Persistent homology (e.g., GUDHI or Ripser) on layer-wise activations of a small transformer; void statistics vs. hallucination rate; code and report |
 | SNN | Spiking network implemented and trained with snnTorch; energy/accuracy comparison against an ANN counterpart |
 | Predictive coding | Reproduction of a hierarchical predictive network in PyTorch; published code and report |
 | Rust / C++ | Custom high-performance kernel (e.g., quantized matrix multiplication) with a benchmark against PyTorch |
@@ -138,12 +165,12 @@ I also study analog compute-in-memory (CIM) as a researcher: an artificial neura
 | **Formal verification** | Lean 4, Coq, SMT solvers (Z3); formal safety bounds and deterministic logic |
 | **Memory and retrieval** | Neo4j, Qdrant, ChromaDB; semantic chunking modeled on consolidation of episodic into semantic memory; hybrid (graph + vector) retrieval |
 | **Deep learning** | PyTorch, Hugging Face Transformers, PEFT/LoRA, Attention Residuals, neuromodulation-inspired models |
+| **Interpretability and topology** | Sparse autoencoders, circuit discovery, persistent homology (TDA) |
 | **Inference and optimization** | vLLM, llama.cpp, quantization (BitsAndBytes, AWQ, GGUF), local deployment of Llama-3 / Qwen / Kimi |
-| **Neuromorphic and HPC** | CUDA, FPGA, SNN (snnTorch, Nengo, Brian2), Rust, C++17/20 |
+| **Neuromorphic and HPC** | CUDA, FPGA, SNN (snnTorch, Nengo, Brian2), phase-change memristors / compute-in-memory, Rust, C++17/20 |
 | **Cognitive cybernetics** | Predictive coding, optimal control theory |
 | **Backend and infrastructure** | Python 3 (asyncio), FastAPI, PostgreSQL, Redis, Celery, Docker |
 | **Research practices** | Reproducible experiments (Weights & Biases / MLflow), data and configuration versioning, factuality and robustness benchmarks |
-
 
 ---
 > *"Solve intelligence, and then use that to solve everything else."* — Demis Hassabis.
