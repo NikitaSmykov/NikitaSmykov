@@ -54,7 +54,6 @@ I study and apply agentic systems for programming, both as a method to raise eng
 - **Measuring effectiveness:** Evaluating agents on realistic tasks (e.g., SWE-bench paradigms), tracking quality, cost, and the share of human corrections, while analyzing typical failures (hallucinated APIs, incomplete refactorings, silent regressions).
 - **Security:** Defense against prompt injection via dependencies and documentation, command-execution control, and rigorous auditing of agent actions.
 
-My research on intent-grounded verification of coding agents is described in [Current Active Research](#current-active-research) at the end of this document.
 
 ## Technology Stack
 
