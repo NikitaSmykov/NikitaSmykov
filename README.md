@@ -61,19 +61,17 @@ My research on intent-grounded verification of coding agents is described in [Cu
 
 | Area | Tools and Methods |
 |---|---|
-| **Cognitive Architectures & Knowledge Representation** | ontologies and knowledge graphs, Datalog / Prolog. |
+| **Cognitive Architectures & Knowledge Representation** | Ontologies and knowledge graphs, Datalog / Prolog. |
 | **World Models & Agent Systems** | Active Inference, LangGraph, Model Context Protocol (MCP), multi-agent orchestration. |
 | **Formal Verification** | Lean 4, Coq, SMT solvers (Z3); formal safety bounds and deterministic logic. |
 | **Memory & Retrieval** | Neo4j, Qdrant, ChromaDB; semantic chunking modeled on consolidation of episodic into semantic memory; hybrid (graph + vector) retrieval. |
 | **Deep Learning** | PyTorch, Hugging Face Transformers, PEFT/LoRA, Attention Residuals, neuromodulation-inspired models. |
 | **Interpretability & Topology** | Sparse autoencoders (SAE), circuit discovery, activation patching, representation steering, persistent homology (TDA). |
-| **Inference & Optimization** | vLLM, llama.cpp, quantization (BitsAndBytes, AWQ, GGUF), local deployment of Llama-3 / Qwen / Kimi. |
+| **Inference & Optimization** | Mojo 1.0 (custom MLIR/GPU kernels, SIMD, zero-copy Python interop), Modular MAX, vLLM, llama.cpp, quantization (BitsAndBytes, AWQ, GGUF), local deployment of Llama-3 / Qwen / Kimi. |
 | **Cognitive Cybernetics** | Predictive coding, optimal control theory. |
-| **Backend & Infrastructure** | Python 3 (asyncio), FastAPI, PostgreSQL, Redis, Celery, Docker. |
+| **Backend & Infrastructure** | Python 3 (asyncio), Mojo 1.0 (systems-level compute & AOT compilation), FastAPI, PostgreSQL, Redis, Celery, Docker. |
+| **Frontend & Agentic UI (2026)** | TypeScript, React 19 (React Compiler), Next.js / TanStack Start, Vite 8 (Rolldown), TanStack Query & Router, Zustand, Tailwind CSS v4, shadcn/ui, Vercel AI SDK (streaming generative UI), Zod, Oxlint / Oxfmt, Vitest, Playwright. |
 | **Research Practices** | Reproducible experiments (Weights & Biases / MLflow), data and configuration versioning, factuality and robustness benchmarks. |
-
-
-
 
 
 ---
