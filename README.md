@@ -61,14 +61,13 @@ My research on intent-grounded verification of coding agents is described in [Cu
 
 | Area | Tools and Methods |
 |---|---|
-| **Cognitive Architectures & Knowledge Representation** | OpenCog, AtomSpace (hypergraph knowledge representation), ontologies and knowledge graphs, Datalog / Prolog. |
+| **Cognitive Architectures & Knowledge Representation** | ontologies and knowledge graphs, Datalog / Prolog. |
 | **World Models & Agent Systems** | Active Inference, LangGraph, Model Context Protocol (MCP), multi-agent orchestration. |
 | **Formal Verification** | Lean 4, Coq, SMT solvers (Z3); formal safety bounds and deterministic logic. |
 | **Memory & Retrieval** | Neo4j, Qdrant, ChromaDB; semantic chunking modeled on consolidation of episodic into semantic memory; hybrid (graph + vector) retrieval. |
 | **Deep Learning** | PyTorch, Hugging Face Transformers, PEFT/LoRA, Attention Residuals, neuromodulation-inspired models. |
 | **Interpretability & Topology** | Sparse autoencoders (SAE), circuit discovery, activation patching, representation steering, persistent homology (TDA). |
 | **Inference & Optimization** | vLLM, llama.cpp, quantization (BitsAndBytes, AWQ, GGUF), local deployment of Llama-3 / Qwen / Kimi. |
-| **Neuromorphic & HPC** | CUDA, FPGA, SNN (snnTorch, Nengo, Brian2), phase-change memristors / compute-in-memory, Rust, C++17/20. |
 | **Cognitive Cybernetics** | Predictive coding, optimal control theory. |
 | **Backend & Infrastructure** | Python 3 (asyncio), FastAPI, PostgreSQL, Redis, Celery, Docker. |
 | **Research Practices** | Reproducible experiments (Weights & Biases / MLflow), data and configuration versioning, factuality and robustness benchmarks. |
