@@ -1,4 +1,4 @@
-# Applied AI Engineer 
+# Python Developer - Applied AI Engineer 
 
 > Building reliable, verifiable, and energy-efficient AI: from cognitive architectures and continual learning to production systems for business and medicine.
 
