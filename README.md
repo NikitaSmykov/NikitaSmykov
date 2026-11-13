@@ -1,6 +1,5 @@
 # Python Developer - Applied AI Engineer 
 
-> Building reliable, verifiable, and energy-efficient AI: from cognitive architectures and continual learning to production systems for business and medicine.
 
 **Contents:** [Applied Solutions for Business](#applied-solutions-for-business) · [AI in Software Development](#ai-in-software-development) · [Technology Stack](#technology-stack) · 
 
